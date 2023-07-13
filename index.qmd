@@ -1,5 +1,5 @@
 ---
-title: "demo_explore_blog"
+title: "KwakuAdu's Blog"
 listing:
   contents: posts
   sort: "date desc"
