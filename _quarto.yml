@@ -14,9 +14,8 @@ website:
   sidebar:
     - id: Kanes_DS-Class_Degree-Of-Endangered-Languages
       title: "Endangered Languages"
-      style: "docked"
-      background: "#0B2027"
-      collapse-level: 6
+      # style: "docked"
+      # collapse-level: 6
       contents: 
         - Kanes_DS-Class_Degree-Of-Endangered-Languages/index.qmd
         - Kanes_DS-Class_Degree-Of-Endangered-Languages/eda.qmd
@@ -25,7 +24,7 @@ website:
         - Kanes_DS-Class_Degree-Of-Endangered-Languages/about.qmd
         
         
-    - title: "Empty space lol"
+    - title: "Empty space"
         
         
 format:
@@ -34,7 +33,6 @@ format:
     css: styles.css
     highlight-style: espresso
     toc: true
-    title-block-banner-color: "#ffffff"
 
 
 
