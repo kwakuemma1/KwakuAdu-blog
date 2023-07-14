@@ -4,16 +4,37 @@ project:
 website:
   title: "KwakuAdu's blog"
   navbar:
-    right:
+    background: secondary
+    left:
       - about.qmd
+      - sidebar:Kanes_DS-Class_Degree-Of-Endangered-Languages
       - icon: github
         href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        
+  sidebar:
+    - id: Kanes_DS-Class_Degree-Of-Endangered-Languages
+      title: "Endangered Languages"
+      style: "docked"
+      background: "#0B2027"
+      collapse-level: 6
+      contents: 
+        - Kanes_DS-Class_Degree-Of-Endangered-Languages/index.qmd
+        - Kanes_DS-Class_Degree-Of-Endangered-Languages/eda.qmd
+        - Kanes_DS-Class_Degree-Of-Endangered-Languages/models.qmd
+        - Kanes_DS-Class_Degree-Of-Endangered-Languages/sources.qmd
+        - Kanes_DS-Class_Degree-Of-Endangered-Languages/about.qmd
+        
+        
+    - title: "Empty space lol"
+        
+        
 format:
   html:
     theme: solar
     css: styles.css
+    highlight-style: espresso
+    toc: true
+    title-block-banner-color: "#ffffff"
 
 
 
