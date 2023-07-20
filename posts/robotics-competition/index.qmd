@@ -1,9 +1,9 @@
 ---
-title: "My first Robotics Competition"
+title: "My First Robotics Competition"
 author: "Emmanuel Yeboah"
 date: "2023-07-20"
 categories: [events]
-image: "robot_15083.JPEG"
+image: "team_meetup.JPEG"
 execute: 
   echo: false
 ---

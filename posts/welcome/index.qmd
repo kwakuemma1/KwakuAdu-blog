@@ -1,8 +1,8 @@
 ---
-title: "Welcome To My Blog"
+title: "My Summer Experise "
 author: "Emmnauel Yeboah"
 date: "2023-07-20"
-categories: [welcome page]
+categories: [events]
 ---
 
 This is my first post in a Quarto blog. Welcome!

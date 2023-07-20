@@ -1,12 +1,12 @@
 ---
-title: "About"
+title: "About Me"
 image: blog_proflie_pic.jpg
 about:
   template: jolla
   links:
     - icon: github
       text: Github
-      href: https://github.com
+      href: https://github.com/kwakuemma1 
 
 ---
 
