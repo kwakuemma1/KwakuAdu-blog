@@ -7,4 +7,3 @@ categories: [welcome page]
 
 This is my first post in a Quarto blog. Welcome!
 
-![](thumbnail.jpg)
