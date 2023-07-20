@@ -1,0 +1,10 @@
+---
+title: "Robotics Competition"
+author: "Emmanuel Yeboah"
+date: "2023-07-20"
+categories: [events]
+image: "image.jpg"
+---
+
+## Day 1
+### A week before the Tornement
