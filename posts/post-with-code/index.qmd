@@ -1,8 +1,8 @@
 ---
-title: "Robotics Competition"
-author: "Emmanuel Yeboah"
+title: "Post With Code"
+author: "Harlow Malloc"
 date: "2023-07-20"
-categories: [events]
+categories: [news, code, analysis]
 image: "image.jpg"
 ---
 

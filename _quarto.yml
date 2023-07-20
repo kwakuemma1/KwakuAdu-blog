@@ -33,6 +33,7 @@ format:
     css: styles.css
     highlight-style: espresso
     toc: true
+    title-block-banner-color: "#01BAEF"
 
 
 
