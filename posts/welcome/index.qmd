@@ -1,5 +1,5 @@
 ---
-title: "My Summer Experise "
+title: "My Summer Experience "
 author: "Emmnauel Yeboah"
 date: "2023-07-20"
 categories: [events]
