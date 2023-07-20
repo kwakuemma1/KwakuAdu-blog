@@ -1,8 +1,8 @@
 ---
 title: "Welcome To My Blog"
-author: "Tristan O'Malley"
-date: "2023-07-10"
-categories: [news]
+author: "Emmanuel Yeboah"
+date: "2023-07-20"
+categories: [welcome page]
 ---
 
 This is the first post in a Quarto blog. Welcome!
