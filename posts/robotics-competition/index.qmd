@@ -3,8 +3,19 @@ title: "Robotics Competition"
 author: "Emmanuel Yeboah"
 date: "2023-07-20"
 categories: [events]
-image: "image.jpg"
+image: "robot_15083.JPEG"
+execute: 
+  echo: false
 ---
 
-## Day 1
-### A week before the Tornement
+## A week before the tournament
+
+On January 29, 2022 during my freshmen year in high school I had my very first robotics competition. And a week before the tournament my teammates and I prepared and practiced before the competition.  
+
+## A few hours before the tournament
+
+I would admit during the whole admissions and welcoming process before the competition I was nervous and a bit shy and so did my teams. during the admissions and welcoming process teams where allowed to practice before the tournament and get a chance to show off their ready to go robot. 
+
+![Here is Closer look at our Robot](images/team_meetup.JPEG)
+
+## 
