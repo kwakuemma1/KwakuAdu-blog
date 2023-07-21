@@ -1,9 +1,0 @@
----
-title: "My Summer Experience "
-author: "Emmnauel Yeboah"
-date: "2023-07-20"
-categories: [events]
----
-
-This is my first post in a Quarto blog. Welcome!
-
