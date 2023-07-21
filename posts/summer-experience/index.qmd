@@ -9,7 +9,7 @@ image: world_map.JPG
 ## My Experience 
 From June 4th to July 12, 2023, I spent my summer learning the basics of data science at [Kane's Data Science Bootcamp](https://bootcamp.davidkane.info/). During that time, I learned how to work with R and RStudio. 
 
-More Importantly, I gained an understanding of extracting meaningful insights from data in order to tell a compelling story (using ggplot in R). Moreover, I acquired skills in using other resources, such as Github, to keep my code organized and collaborative with others.
+More Importantly, I gained an understanding of extracting meaningful insights from data, and tell compelling stories using plots (ggplot in R), and statistical models. I also acquired skills in using other resources, such as Github, to keep my code organized and collaborative with others.
 
 This course also covered the fundamentals of coding and statistics while providing me with the opportunity to experience what it's like to take a Harvard course. 
 
