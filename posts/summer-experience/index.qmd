@@ -1,5 +1,5 @@
 ---
-title: "My Summer Experience "
+title: "Summer 2023 Data Science Experience"
 author: "Emmnauel Yeboah"
 date: "2023-07-20"
 categories: [events]
@@ -7,10 +7,11 @@ image: world_map.JPG
 ---
 
 ## My Experince 
-On June 4th to July 12 2023, I spent my summer learning basics of data science at [Kane's Data Science Bootcamp.](https://bootcamp.davidkane.info/) During that time I learnt how to work with R and Rstudio. as well also understand why and how to plot interactive, non interactive, and many other types of plots from scratch. 
+From June 4th to July 12, 2023, I spent my summer learning the basics of data science at [Kane's Data Science Bootcamp](https://bootcamp.davidkane.info/). During that time, I learned how to work with R and RStudio. 
 
-In addition, I also learnt how to use other resources such as Github to keep your code organized and collaborative. This course also taught me the basics of coding and statistics as well as giving me the chance to experience what it's like  taking a Harvard course.  
+Additionally, I gained an understanding of why and how to plot interactive, non-interactive, and many other types of plots from scratch. Moreover, I acquired skills in using other resources, such as Github, to keep my code organized and collaborative.
+
+This course also covered the fundamentals of coding and statistics while providing me with the opportunity to experience what it's like to take a Harvard course. 
 
 ## My Final Project
-By the end of the course (as a final project) I was able create a mini website that shows my analysis on [Endangered Languages](https://ema-pubweb0707.quarto.pub/kanes_ds-class_degree-of-endangered-languages/) 
-A topic that dives into the Social and Economic Factors Endangering vulnerably languages. 
+By the end of the course (as a final project) I successfully created a mini-website showcasing my analysis on [Endangered Languages](https://ema-pubweb0707.quarto.pub/kanes_ds-class_degree-of-endangered-languages/). The topic delves into the Social and Economic Factors Endangering Vulnerably Languages.
