@@ -10,22 +10,29 @@ execute:
 
 ## A week before the tournament
 
-On January 29, 2022, during my freshmen year in high school, I had my very first robotics competition. And a week before the tournament my teammates and I prepared and practiced before the competition.  
+On January 29, 2022, during my freshman year in high school, I participated in my very first robotics competition at FIRST Tech Challenge. FIRST (For Inspiration and Recognition of Science and Technology) is a robotics community that equips young individuals for the future by offering a range of inclusive, team-based robotics programs. Its goal is to enable students to develop an engineering mindset and foster teamwork while designing, building, and programming robots to compete in alliance formats against other teams. 
+
+And In the week leading up to the tournament, my teammates and I dedicated our after-school time to practicing and improving our robot's structure and coding.
 
 ## A few hours before the tournament
 
-I would admit during the admissions and welcoming process before the competition I was nervous and a bit shy and so were some of my teammates. During the process, teams where allowed to practice before the tournament and get a chance to show off their ready to go robots. 
+I must admit that during the admissions and welcoming process before the competition, I was nervous and a bit shy, and some of my teammates felt the same way. Throughout this process, teams were allowed to practice before the tournament and showcase their ready-to-go robots. During those few hours, we practiced with other teams, continuously improving and modifying our robot's strength and accuracy as we went along. Noting tips and tricks given to us from other teams as well as sharing our knowledge and analysis on other teams robot. 
 
 ![**Photo**: Here is Closer look at our Robot](images/team_meetup.JPEG)
 
 ## During the Tournament
-In the course of the tournament my teammates and I no longer felt nervous and shy but rather excited and intrigued to see other really cool and impressive robots. And as the tournament continued although we kept losing allot of matches and wining very few we still persisted and never gave up. Learning from our mistakes and taking what little time we have to brainstorm and improve our robot. 
+
+In the course of the tournament, the MC took a moment to deliver a speech expressing his pride in the remarkable progress and growth of the robotics community. He acknowledged the collective effort and determination of all participants in the program and encouraged us to continue contributing towards its development. 
+
+After hearing that speech, my teammates and I no longer felt nervous and shy. Instead, we became excited and intrigued when we saw other really cool and impressive robots throughout the competition.
+
+As the tournament continued, despite losing many matches and winning only a few, we persevered and never gave up. We learned from our mistakes and made the most of the little time we had to brainstorm and improve our robot once again.
 
 ![**Photo**: A Dashboard Displaying our Progess (we were the Blue Side)](images/Score_Board.JPEG)
 
 ## At the end of the Tounrnament
 
-We lost. Ranking second to last out of every other team. I felt a bit sad and disappointed of course but at the same time I also felt proud and excited to have gone though every match and obstacles with my teammates. A "win win" as our adult mentor said to us. And with that, I returned home eager to engage in discussions with my family about the experience. Furthermore, I was greatly enthused to collaborate with my teammates to explore ways for enhancement, potential victories, and improved performance in the upcoming year.
+We lost. Ranking second to last out of every other team. I felt a bit sad and disappointed of course but at the same time I also felt proud and excited to have gone though every match and obstacles with my teammates. A "win win" as our adult mentor said to us. And with that, I returned home eager to engage in discussions with my family about the experience. And greatly enthused to collaborate with my teammates to explore ways for enhancement, potential victories, and improved performance in the upcoming year.
 
 ![**Photo**: Our Team Slogan](images/team_logo.JPEG) 
 
