@@ -4,12 +4,12 @@ author: "Emmnauel Yeboah"
 date: "2023-07-20"
 categories: [bootcamp]
 image: world_map.JPG
-format: 
-  html:
-    toc: true
-    toc-location: right
-    roc-depth: 3
-    code-fold: true
+# format: 
+#   html:
+#     toc: true
+#     toc-location: right
+#     roc-depth: 3
+#     code-fold: true
 ---
 
 ## My Experience 
