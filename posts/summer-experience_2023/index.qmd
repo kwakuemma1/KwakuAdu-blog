@@ -20,4 +20,4 @@ More Importantly, I gained an understanding of how to extract meaningful insight
 This course also covered the fundamentals of coding and statistics while providing me with the opportunity to experience what it's like to take a Harvard course. 
 
 ## My Final Project
-By the end of the course (as a final project) I successfully created a mini-website showcasing my analysis on [Endangered Languages](https://ema-pubweb0707.quarto.pub/kwakuadus-blog/Kanes_DS-Class_Degree-Of-Endangered-Languages/). The topic delves into the social and economic factors endangering vulnerably languages. 
+By the end of the course (as a final project) I successfully created a mini-website showcasing my analysis on [Endangered Languages](https://kwakuemma1.github.io/KwakuAduBlog/Endangered-Languages/). The topic delves into the social and economic factors endangering vulnerably languages. 
