@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.433">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Kwaku-Adu’s Blog -</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="../site_libs/htmlwidgets-1.6.2/htmlwidgets.js"></script>
+<script src="../site_libs/plotly-binding-4.10.2/plotly.js"></script>
+<script src="../site_libs/typedarray-0.1/typedarray.min.js"></script>
+<script src="../site_libs/jquery-3.5.1/jquery.min.js"></script>
+<link href="../site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet">
+<script src="../site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
+<link href="../site_libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet">
+<script src="../site_libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-sidebar floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Kwaku-Adu’s Blog</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html" rel="" target="">
+ <span class="menu-text">About Me</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-endangered-languages" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Endangered Languages</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-endangered-languages">    
+        <li>
+    <a class="dropdown-item" href="../Endangered-Languages/index.html" rel="" target="">
+ <span class="dropdown-text">What are endangered languages and how can we help save them?</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../Endangered-Languages/eda.html" rel="" target="">
+ <span class="dropdown-text">Endangered Languages in the World</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../Endangered-Languages/models.html" rel="" target="">
+ <span class="dropdown-text">Introduction</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../Endangered-Languages/sources.html" rel="" target="">
+ <span class="dropdown-text">Sources</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../Endangered-Languages/about.html" rel="" target="">
+ <span class="dropdown-text">About</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/kwakuemma1" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Endangered-Languages/index.html">What are endangered languages and how can we help save them?</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Endangered-Languages/index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">What are endangered languages and how can we help save them?</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Endangered-Languages/eda.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Endangered Languages in the World</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Endangered-Languages/models.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Endangered-Languages/sources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sources</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Endangered-Languages/about.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#what-are-endangered-languages-and-how-can-we-help-save-them" id="toc-what-are-endangered-languages-and-how-can-we-help-save-them" class="nav-link active" data-scroll-target="#what-are-endangered-languages-and-how-can-we-help-save-them">What are endangered languages and how can we help save them?</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+
+
+<section id="what-are-endangered-languages-and-how-can-we-help-save-them" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="what-are-endangered-languages-and-how-can-we-help-save-them">What are endangered languages and how can we help save them?</h2>
+<p>According to the <a href="https://www.weforum.org/agenda/2019/05/five-ways-indigenous-languages-can-be-championed-for-learners">World Economic Forum</a>, there are approximately 7,000 recognized languages worldwide, however people communicate mainly in only 20 languages. <a href="https://www.nature.com/articles/s41559-021-01604-y">A recent research publication</a>, found that 1,500 of the world’s endangered languages are at risk of disappearing by the end of the century.</p>
+<p><strong>Almost a staggering half of all the vulnerable languages in the US are extinct!</strong></p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-f9811d9b01f55cbbbcf6" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-f9811d9b01f55cbbbcf6">{"x":{"visdat":{"520c56e74792":["function () ","plotlyVisDat"]},"cur_data":"520c56e74792","attrs":{"520c56e74792":{"locations":["AFG","ALB","ANG","ARG","ARM","AUS","AUT","AZE","BEL","BEN","BFA","BGD","BGR","BIH","BLZ","BOL","BRA","BRB","BTN","BWA","CAF","CAN","CHE","CHL","CHN","CIV","CMR","COG","COK","COL","CRI","CYP","CZE","DEU","DMA","DNK","DZA","ECU","EGY","ERI","ESH","ESP","EST","ETH","FIN","FJI","FRA","FRO","FSM","GAB","GBR","GEO","GHA","GIN","GNB","GNQ","GRC","GRL","GTM","GUF","GUM","GUY","HND","HRV","HUN","IDN","IND","IRL","IRN","IRQ","ISR","ITA","JOR","JPN","KAZ","KEN","KGZ","KHM","KOR","LAO","LBN","LBY","LIE","LKA","LSO","LTU","LUX","LVA","MAR","MCO","MDA","MEX","MKD","MLI","MMR","MNE","MNG","MRT","MYS","NAM","NCL","NER","NFK","NGA","NIC","NIU","NLD","NOR","NPL","NRU","NZL","OMN","PAK","PAN","PCN","PER","PHL","PLW","PNG","POL","PRT","PRY","PSE","PYF","ROU","RUS","SDN","SEN","SLB","SLE","SLV","SMR","SRB","SUR","SVK","SVN","SWE","SYR","TCD","TGO","THA","TJK","TKL","TKM","TLS","TUN","TUR","TUV","TZA","UGA","UKR","URY","USA","UZB","VEN","VNM","VUT","YEM","ZAF","ZAI"],"marker":{"colorbar":{"title":"Country Median DoE"}},"colorscale":"RdOrYl","text":["Country: afghanistan,<br />Number of Endangered Languages: 28,<br />Proximity to Urban Center Score: 0.21,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.21,<br />Prop. Definitely Endangered: 0.5,<br />Prop. Severely Endangered: 0.21,<br />Prop. Critically Endangered: 0.07,<br />Prop. Extinct: 0","Country: albania,<br />Number of Endangered Languages: 12,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 0.99,<br />Urbanization Rate: 26.51,<br />Prop. Vulnerable: 0.25,<br />Prop. Definitely Endangered: 0.67,<br />Prop. Severely Endangered: 0.08,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: NA,<br />Number of Endangered Languages: 4,<br />Proximity to Urban Center Score: 0.44,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: argentina,<br />Number of Endangered Languages: 21,<br />Proximity to Urban Center Score: 0.63,<br />Literacy Rate: 0.98,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.29,<br />Prop. Definitely Endangered: 0.24,<br />Prop. Severely Endangered: 0.19,<br />Prop. Critically Endangered: 0.1,<br />Prop. Extinct: 0.19","Country: armenia,<br />Number of Endangered Languages: 3,<br />Proximity to Urban Center Score: 0.36,<br />Literacy Rate: 1,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: australia,<br />Number of Endangered Languages: 109,<br />Proximity to Urban Center Score: 1.06,<br />Literacy Rate: 0.99,<br />Urbanization Rate: 23.72,<br />Prop. Vulnerable: 0.17,<br />Prop. Definitely Endangered: 0.12,<br />Prop. Severely Endangered: 0.28,<br />Prop. Critically Endangered: 0.39,<br />Prop. Extinct: 0.06","Country: austria,<br />Number of Endangered Languages: 15,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 0.98,<br />Urbanization Rate: 26.51,<br />Prop. Vulnerable: 0.27,<br />Prop. Definitely Endangered: 0.73,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: azerbaijan,<br />Number of Endangered Languages: 11,<br />Proximity to Urban Center Score: 0.19,<br />Literacy Rate: 1,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.18,<br />Prop. Definitely Endangered: 0.27,<br />Prop. Severely Endangered: 0.45,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0.09","Country: belgium,<br />Number of Endangered Languages: 10,<br />Proximity to Urban Center Score: 0.11,<br />Literacy Rate: 0.99,<br />Urbanization Rate: 18.3,<br />Prop. Vulnerable: 0.5,<br />Prop. Definitely Endangered: 0.2,<br />Prop. Severely Endangered: 0.3,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: benin,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.26,<br />Literacy Rate: 0.38,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 1,<br />Prop. Extinct: 0","Country: burkina faso,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 0.38,<br />Urbanization Rate: 9.38,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: bangladesh,<br />Number of Endangered Languages: 5,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 0.62,<br />Urbanization Rate: 37.57,<br />Prop. Vulnerable: 0.6,<br />Prop. Definitely Endangered: 0.2,<br />Prop. Severely Endangered: 0.2,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: bulgaria,<br />Number of Endangered Languages: 18,<br />Proximity to Urban Center Score: 0.2,<br />Literacy Rate: 0.98,<br />Urbanization Rate: 26.51,<br />Prop. Vulnerable: 0.17,<br />Prop. Definitely Endangered: 0.44,<br />Prop. Severely Endangered: 0.28,<br />Prop. Critically Endangered: 0.11,<br />Prop. Extinct: 0","Country: bosnia & herzegovina,<br />Number of Endangered Languages: 8,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.88,<br />Prop. Severely Endangered: 0.12,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: belize,<br />Number of Endangered Languages: 4,<br />Proximity to Urban Center Score: 0.05,<br />Literacy Rate: 0.83,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.5,<br />Prop. Definitely Endangered: 0.25,<br />Prop. Severely Endangered: 0.25,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: bolivia,<br />Number of Endangered Languages: 44,<br />Proximity to Urban Center Score: 0.5,<br />Literacy Rate: 0.96,<br />Urbanization Rate: 39.87,<br />Prop. Vulnerable: 0.23,<br />Prop. Definitely Endangered: 0.27,<br />Prop. Severely Endangered: 0.18,<br />Prop. Critically Endangered: 0.23,<br />Prop. Extinct: 0.09","Country: brazil,<br />Number of Endangered Languages: 210,<br />Proximity to Urban Center Score: 0.83,<br />Literacy Rate: 0.92,<br />Urbanization Rate: 30.16,<br />Prop. Vulnerable: 0.53,<br />Prop. Definitely Endangered: 0.09,<br />Prop. Severely Endangered: 0.09,<br />Prop. Critically Endangered: 0.22,<br />Prop. Extinct: 0.07","Country: barbados,<br />Number of Endangered Languages: 10,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 1,<br />Urbanization Rate: 5.5,<br />Prop. Vulnerable: 0.2,<br />Prop. Definitely Endangered: 0.8,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: bhutan,<br />Number of Endangered Languages: 19,<br />Proximity to Urban Center Score: 0.13,<br />Literacy Rate: 0.64,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.53,<br />Prop. Definitely Endangered: 0.47,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: botswana,<br />Number of Endangered Languages: 11,<br />Proximity to Urban Center Score: 0.49,<br />Literacy Rate: 0.88,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.18,<br />Prop. Definitely Endangered: 0.45,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0.27,<br />Prop. Extinct: 0.09","Country: central african republic,<br />Number of Endangered Languages: 5,<br />Proximity to Urban Center Score: 0.51,<br />Literacy Rate: 0.37,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.2,<br />Prop. Definitely Endangered: 0.2,<br />Prop. Severely Endangered: 0.2,<br />Prop. Critically Endangered: 0.4,<br />Prop. Extinct: 0","Country: canada,<br />Number of Endangered Languages: 95,<br />Proximity to Urban Center Score: 2.63,<br />Literacy Rate: 0.99,<br />Urbanization Rate: 20.88,<br />Prop. Vulnerable: 0.25,<br />Prop. Definitely Endangered: 0.19,<br />Prop. Severely Endangered: 0.2,<br />Prop. Critically Endangered: 0.34,<br />Prop. Extinct: 0.02","Country: switzerland,<br />Number of Endangered Languages: 16,<br />Proximity to Urban Center Score: 0.19,<br />Literacy Rate: 0.99,<br />Urbanization Rate: 18.3,<br />Prop. Vulnerable: 0.25,<br />Prop. Definitely Endangered: 0.69,<br />Prop. Severely Endangered: 0.06,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: chile,<br />Number of Endangered Languages: 8,<br />Proximity to Urban Center Score: 0.72,<br />Literacy Rate: 0.96,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.25,<br />Prop. Definitely Endangered: 0.12,<br />Prop. Severely Endangered: 0.12,<br />Prop. Critically Endangered: 0.38,<br />Prop. Extinct: 0.12","Country: china,<br />Number of Endangered Languages: 180,<br />Proximity to Urban Center Score: 0.53,<br />Literacy Rate: 0.98,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.32,<br />Prop. Definitely Endangered: 0.34,<br />Prop. Severely Endangered: 0.13,<br />Prop. Critically Endangered: 0.16,<br />Prop. Extinct: 0.06","Country: côte d’ivoire,<br />Number of Endangered Languages: 4,<br />Proximity to Urban Center Score: 0.26,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0.5,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0.5","Country: cameroon,<br />Number of Endangered Languages: 36,<br />Proximity to Urban Center Score: 0.29,<br />Literacy Rate: 0.75,<br />Urbanization Rate: 46.39,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.08,<br />Prop. Severely Endangered: 0.36,<br />Prop. Critically Endangered: 0.44,<br />Prop. Extinct: 0.11","Country: congo - brazzaville,<br />Number of Endangered Languages: 2,<br />Proximity to Urban Center Score: 0.36,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.5,<br />Prop. Severely Endangered: 0.5,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: cook islands,<br />Number of Endangered Languages: 4,<br />Proximity to Urban Center Score: 0.87,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.25,<br />Prop. Definitely Endangered: 0.5,<br />Prop. Severely Endangered: 0.25,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: colombia,<br />Number of Endangered Languages: 85,<br />Proximity to Urban Center Score: 0.5,<br />Literacy Rate: 0.06,<br />Urbanization Rate: 36.09,<br />Prop. Vulnerable: 0.24,<br />Prop. Definitely Endangered: 0.39,<br />Prop. Severely Endangered: 0.16,<br />Prop. Critically Endangered: 0.16,<br />Prop. Extinct: 0.05","Country: costa rica,<br />Number of Endangered Languages: 8,<br />Proximity to Urban Center Score: 0.12,<br />Literacy Rate: 0.98,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.25,<br />Prop. Definitely Endangered: 0.25,<br />Prop. Severely Endangered: 0.12,<br />Prop. Critically Endangered: 0.38,<br />Prop. Extinct: 0","Country: cyprus,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.02,<br />Literacy Rate: 0.99,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 1,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: czechia,<br />Number of Endangered Languages: 10,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.2,<br />Prop. Definitely Endangered: 0.8,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: germany,<br />Number of Endangered Languages: 33,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 0.99,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.58,<br />Prop. Definitely Endangered: 0.33,<br />Prop. Severely Endangered: 0.06,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0.03","Country: dominica,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.02,<br />Literacy Rate: 0.92,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 1","Country: denmark,<br />Number of Endangered Languages: 13,<br />Proximity to Urban Center Score: 0.23,<br />Literacy Rate: 0.99,<br />Urbanization Rate: 14.66,<br />Prop. Vulnerable: 0.85,<br />Prop. Definitely Endangered: 0.15,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: algeria,<br />Number of Endangered Languages: 13,<br />Proximity to Urban Center Score: 0.48,<br />Literacy Rate: 0.8,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.31,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0.46,<br />Prop. Critically Endangered: 0.23,<br />Prop. Extinct: 0","Country: ecuador,<br />Number of Endangered Languages: 63,<br />Proximity to Urban Center Score: 0.19,<br />Literacy Rate: 0.94,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.02,<br />Prop. Definitely Endangered: 0.63,<br />Prop. Severely Endangered: 0.29,<br />Prop. Critically Endangered: 0.03,<br />Prop. Extinct: 0.03","Country: egypt,<br />Number of Endangered Languages: 3,<br />Proximity to Urban Center Score: 0.41,<br />Literacy Rate: 0.75,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.33,<br />Prop. Severely Endangered: 0.33,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0.33","Country: eritrea,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.13,<br />Literacy Rate: 0.68,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 1,<br />Prop. Extinct: 0","Country: western sahara,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.52,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 1,<br />Prop. Extinct: 0","Country: spain,<br />Number of Endangered Languages: 8,<br />Proximity to Urban Center Score: 0.28,<br />Literacy Rate: 0.98,<br />Urbanization Rate: 18.14,<br />Prop. Vulnerable: 0.12,<br />Prop. Definitely Endangered: 0.62,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0.25","Country: estonia,<br />Number of Endangered Languages: 9,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 1,<br />Urbanization Rate: 11.18,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: ethiopia,<br />Number of Endangered Languages: 28,<br />Proximity to Urban Center Score: 0.42,<br />Literacy Rate: 0.49,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.29,<br />Prop. Definitely Endangered: 0.25,<br />Prop. Severely Endangered: 0.11,<br />Prop. Critically Endangered: 0.21,<br />Prop. Extinct: 0.14","Country: finland,<br />Number of Endangered Languages: 14,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 1,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.79,<br />Prop. Severely Endangered: 0.14,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0.07","Country: fiji,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.5,<br />Literacy Rate: 0.94,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 1,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: france,<br />Number of Endangered Languages: 35,<br />Proximity to Urban Center Score: 0.15,<br />Literacy Rate: 0.99,<br />Urbanization Rate: 18.3,<br />Prop. Vulnerable: 0.23,<br />Prop. Definitely Endangered: 0.4,<br />Prop. Severely Endangered: 0.37,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: faroe islands,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 1,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: micronesia (federated states of),<br />Number of Endangered Languages: 13,<br />Proximity to Urban Center Score: 0.56,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.23,<br />Prop. Severely Endangered: 0.69,<br />Prop. Critically Endangered: 0.08,<br />Prop. Extinct: 0","Country: gabon,<br />Number of Endangered Languages: 8,<br />Proximity to Urban Center Score: 0.31,<br />Literacy Rate: 0.83,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.5,<br />Prop. Severely Endangered: 0.5,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: united kingdom,<br />Number of Endangered Languages: 18,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: NaN,<br />Urbanization Rate: 12.2,<br />Prop. Vulnerable: 0.11,<br />Prop. Definitely Endangered: 0.56,<br />Prop. Severely Endangered: 0.11,<br />Prop. Critically Endangered: 0.11,<br />Prop. Extinct: 0.11","Country: georgia,<br />Number of Endangered Languages: 11,<br />Proximity to Urban Center Score: 0.27,<br />Literacy Rate: 1,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.18,<br />Prop. Definitely Endangered: 0.45,<br />Prop. Severely Endangered: 0.36,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: ghana,<br />Number of Endangered Languages: 5,<br />Proximity to Urban Center Score: 0.19,<br />Literacy Rate: 0.77,<br />Urbanization Rate: 16.16,<br />Prop. Vulnerable: 0.6,<br />Prop. Definitely Endangered: 0.2,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0.2,<br />Prop. Extinct: 0","Country: guinea,<br />Number of Endangered Languages: 8,<br />Proximity to Urban Center Score: 0.12,<br />Literacy Rate: 0.3,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.38,<br />Prop. Severely Endangered: 0.25,<br />Prop. Critically Endangered: 0.25,<br />Prop. Extinct: 0.12","Country: guinea-bissau,<br />Number of Endangered Languages: 3,<br />Proximity to Urban Center Score: 0.1,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.33,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0.67,<br />Prop. Extinct: 0","Country: equatorial guinea,<br />Number of Endangered Languages: 3,<br />Proximity to Urban Center Score: 0.2,<br />Literacy Rate: 0.84,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: greece,<br />Number of Endangered Languages: 17,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 0.98,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.53,<br />Prop. Severely Endangered: 0.29,<br />Prop. Critically Endangered: 0.18,<br />Prop. Extinct: 0","Country: greenland,<br />Number of Endangered Languages: 3,<br />Proximity to Urban Center Score: 0.68,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.33,<br />Prop. Definitely Endangered: 0.67,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: guatemala,<br />Number of Endangered Languages: 25,<br />Proximity to Urban Center Score: 0.11,<br />Literacy Rate: 0.81,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.56,<br />Prop. Definitely Endangered: 0.32,<br />Prop. Severely Endangered: 0.04,<br />Prop. Critically Endangered: 0.08,<br />Prop. Extinct: 0","Country: french guiana,<br />Number of Endangered Languages: 5,<br />Proximity to Urban Center Score: 0.16,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.4,<br />Prop. Severely Endangered: 0.6,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: guam,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.01,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 1,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: guyana,<br />Number of Endangered Languages: 14,<br />Proximity to Urban Center Score: 0.34,<br />Literacy Rate: 0.88,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.36,<br />Prop. Definitely Endangered: 0.14,<br />Prop. Severely Endangered: 0.14,<br />Prop. Critically Endangered: 0.36,<br />Prop. Extinct: 0","Country: honduras,<br />Number of Endangered Languages: 8,<br />Proximity to Urban Center Score: 0.2,<br />Literacy Rate: 0.88,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.25,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0.25,<br />Prop. Critically Endangered: 0.38,<br />Prop. Extinct: 0.12","Country: croatia,<br />Number of Endangered Languages: 14,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 0.99,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.07,<br />Prop. Definitely Endangered: 0.57,<br />Prop. Severely Endangered: 0.29,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0.07","Country: hungary,<br />Number of Endangered Languages: 14,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 0.99,<br />Urbanization Rate: 26.51,<br />Prop. Vulnerable: 0.14,<br />Prop. Definitely Endangered: 0.79,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0.07","Country: indonesia,<br />Number of Endangered Languages: 149,<br />Proximity to Urban Center Score: 0.92,<br />Literacy Rate: 0.94,<br />Urbanization Rate: 28.14,<br />Prop. Vulnerable: 0.38,<br />Prop. Definitely Endangered: 0.2,<br />Prop. Severely Endangered: 0.13,<br />Prop. Critically Endangered: 0.21,<br />Prop. Extinct: 0.08","Country: india,<br />Number of Endangered Languages: 213,<br />Proximity to Urban Center Score: 0.41,<br />Literacy Rate: 0.71,<br />Urbanization Rate: 22.3,<br />Prop. Vulnerable: 0.42,<br />Prop. Definitely Endangered: 0.32,<br />Prop. Severely Endangered: 0.03,<br />Prop. Critically Endangered: 0.2,<br />Prop. Extinct: 0.03","Country: ireland,<br />Number of Endangered Languages: 2,<br />Proximity to Urban Center Score: 0.16,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.5,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0.5","Country: iran,<br />Number of Endangered Languages: 48,<br />Proximity to Urban Center Score: 0.28,<br />Literacy Rate: 0.87,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.08,<br />Prop. Definitely Endangered: 0.77,<br />Prop. Severely Endangered: 0.04,<br />Prop. Critically Endangered: 0.06,<br />Prop. Extinct: 0.04","Country: iraq,<br />Number of Endangered Languages: 12,<br />Proximity to Urban Center Score: 0.3,<br />Literacy Rate: 0.8,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.08,<br />Prop. Definitely Endangered: 0.58,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0.08,<br />Prop. Extinct: 0.25","Country: israel,<br />Number of Endangered Languages: 13,<br />Proximity to Urban Center Score: 0.05,<br />Literacy Rate: 0.98,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.08,<br />Prop. Definitely Endangered: 0.23,<br />Prop. Severely Endangered: 0.62,<br />Prop. Critically Endangered: 0.08,<br />Prop. Extinct: 0","Country: italy,<br />Number of Endangered Languages: 44,<br />Proximity to Urban Center Score: 0.19,<br />Literacy Rate: 0.99,<br />Urbanization Rate: 27.69,<br />Prop. Vulnerable: 0.16,<br />Prop. Definitely Endangered: 0.64,<br />Prop. Severely Endangered: 0.2,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: jordan,<br />Number of Endangered Languages: 2,<br />Proximity to Urban Center Score: 0.3,<br />Literacy Rate: 0.95,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.5,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0.5,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: japan,<br />Number of Endangered Languages: 13,<br />Proximity to Urban Center Score: 0.69,<br />Literacy Rate: 0.99,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.77,<br />Prop. Severely Endangered: 0.15,<br />Prop. Critically Endangered: 0.08,<br />Prop. Extinct: 0","Country: kazakhstan,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.32,<br />Literacy Rate: 1,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: kenya,<br />Number of Endangered Languages: 14,<br />Proximity to Urban Center Score: 0.26,<br />Literacy Rate: 0.78,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.21,<br />Prop. Definitely Endangered: 0.14,<br />Prop. Severely Endangered: 0.07,<br />Prop. Critically Endangered: 0.14,<br />Prop. Extinct: 0.43","Country: kyrgyzstan,<br />Number of Endangered Languages: 2,<br />Proximity to Urban Center Score: 0.75,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: cambodia,<br />Number of Endangered Languages: 19,<br />Proximity to Urban Center Score: 0.25,<br />Literacy Rate: 0.78,<br />Urbanization Rate: 33.09,<br />Prop. Vulnerable: 0.05,<br />Prop. Definitely Endangered: 0.05,<br />Prop. Severely Endangered: 0.42,<br />Prop. Critically Endangered: 0.47,<br />Prop. Extinct: 0","Country: south korea,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.47,<br />Literacy Rate: 0.98,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 1,<br />Prop. Extinct: 0","Country: laos,<br />Number of Endangered Languages: 33,<br />Proximity to Urban Center Score: 0.32,<br />Literacy Rate: 0.8,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.09,<br />Prop. Definitely Endangered: 0.7,<br />Prop. Severely Endangered: 0.15,<br />Prop. Critically Endangered: 0.06,<br />Prop. Extinct: 0","Country: lebanon,<br />Number of Endangered Languages: 2,<br />Proximity to Urban Center Score: 0.03,<br />Literacy Rate: 0.94,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.5,<br />Prop. Severely Endangered: 0.5,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: libya,<br />Number of Endangered Languages: 6,<br />Proximity to Urban Center Score: 0.61,<br />Literacy Rate: 0.91,<br />Urbanization Rate: 32.16,<br />Prop. Vulnerable: 0.17,<br />Prop. Definitely Endangered: 0.17,<br />Prop. Severely Endangered: 0.5,<br />Prop. Critically Endangered: 0.17,<br />Prop. Extinct: 0","Country: liechtenstein,<br />Number of Endangered Languages: 3,<br />Proximity to Urban Center Score: 0.04,<br />Literacy Rate: 1,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 1,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: sri lanka,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.18,<br />Literacy Rate: 0.93,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: lesotho,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.08,<br />Literacy Rate: 0.79,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: lithuania,<br />Number of Endangered Languages: 10,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 1,<br />Urbanization Rate: 5.5,<br />Prop. Vulnerable: 0.1,<br />Prop. Definitely Endangered: 0.8,<br />Prop. Severely Endangered: 0.1,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: luxembourg,<br />Number of Endangered Languages: 3,<br />Proximity to Urban Center Score: 0.06,<br />Literacy Rate: 1,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.33,<br />Prop. Definitely Endangered: 0.67,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: latvia,<br />Number of Endangered Languages: 12,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 1,<br />Urbanization Rate: 5.5,<br />Prop. Vulnerable: 0.17,<br />Prop. Definitely Endangered: 0.67,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0.08,<br />Prop. Extinct: 0.08","Country: morocco,<br />Number of Endangered Languages: 8,<br />Proximity to Urban Center Score: 0.25,<br />Literacy Rate: 0.69,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.12,<br />Prop. Definitely Endangered: 0.12,<br />Prop. Severely Endangered: 0.25,<br />Prop. Critically Endangered: 0.25,<br />Prop. Extinct: 0.25","Country: monaco,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.14,<br />Literacy Rate: 0.99,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: moldova,<br />Number of Endangered Languages: 3,<br />Proximity to Urban Center Score: 0.1,<br />Literacy Rate: 0.99,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: mexico,<br />Number of Endangered Languages: 148,<br />Proximity to Urban Center Score: 0.29,<br />Literacy Rate: 0.95,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.38,<br />Prop. Definitely Endangered: 0.26,<br />Prop. Severely Endangered: 0.22,<br />Prop. Critically Endangered: 0.15,<br />Prop. Extinct: 0","Country: north macedonia,<br />Number of Endangered Languages: 16,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: NaN,<br />Urbanization Rate: 26.51,<br />Prop. Vulnerable: 0.25,<br />Prop. Definitely Endangered: 0.5,<br />Prop. Severely Endangered: 0.25,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: mali,<br />Number of Endangered Languages: 2,<br />Proximity to Urban Center Score: 0.4,<br />Literacy Rate: 0.39,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: myanmar (burma),<br />Number of Endangered Languages: 28,<br />Proximity to Urban Center Score: 0.43,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.11,<br />Prop. Definitely Endangered: 0.25,<br />Prop. Severely Endangered: 0.29,<br />Prop. Critically Endangered: 0.21,<br />Prop. Extinct: 0.14","Country: montenegro,<br />Number of Endangered Languages: 7,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 0.99,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: mongolia,<br />Number of Endangered Languages: 10,<br />Proximity to Urban Center Score: 0.9,<br />Literacy Rate: 0.98,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.1,<br />Prop. Definitely Endangered: 0.5,<br />Prop. Severely Endangered: 0.3,<br />Prop. Critically Endangered: 0.1,<br />Prop. Extinct: 0","Country: mauritania,<br />Number of Endangered Languages: 3,<br />Proximity to Urban Center Score: 0.33,<br />Literacy Rate: 0.52,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.33,<br />Prop. Severely Endangered: 0.33,<br />Prop. Critically Endangered: 0.33,<br />Prop. Extinct: 0","Country: malaysia,<br />Number of Endangered Languages: 25,<br />Proximity to Urban Center Score: 0.19,<br />Literacy Rate: 0.95,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.2,<br />Prop. Severely Endangered: 0.36,<br />Prop. Critically Endangered: 0.32,<br />Prop. Extinct: 0.12","Country: namibia,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.66,<br />Literacy Rate: 0.82,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: new caledonia,<br />Number of Endangered Languages: 24,<br />Proximity to Urban Center Score: 0.23,<br />Literacy Rate: NaN,<br />Urbanization Rate: 65.64,<br />Prop. Vulnerable: 0.33,<br />Prop. Definitely Endangered: 0.42,<br />Prop. Severely Endangered: 0.12,<br />Prop. Critically Endangered: 0.08,<br />Prop. Extinct: 0.04","Country: niger,<br />Number of Endangered Languages: 2,<br />Proximity to Urban Center Score: 0.63,<br />Literacy Rate: 0.19,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.5,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0.5,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: norfolk island,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.76,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: nigeria,<br />Number of Endangered Languages: 29,<br />Proximity to Urban Center Score: 0.26,<br />Literacy Rate: 0.6,<br />Urbanization Rate: 23.69,<br />Prop. Vulnerable: 0.1,<br />Prop. Definitely Endangered: 0.07,<br />Prop. Severely Endangered: 0.28,<br />Prop. Critically Endangered: 0.48,<br />Prop. Extinct: 0.07","Country: nicaragua,<br />Number of Endangered Languages: 11,<br />Proximity to Urban Center Score: 0.23,<br />Literacy Rate: 0.83,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.18,<br />Prop. Definitely Endangered: 0.18,<br />Prop. Severely Endangered: 0.18,<br />Prop. Critically Endangered: 0.18,<br />Prop. Extinct: 0.27","Country: niue,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.01,<br />Literacy Rate: NaN,<br />Urbanization Rate: 10.47,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: netherlands,<br />Number of Endangered Languages: 23,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 0.99,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.65,<br />Prop. Definitely Endangered: 0.35,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: norway,<br />Number of Endangered Languages: 6,<br />Proximity to Urban Center Score: 0.8,<br />Literacy Rate: 1,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.33,<br />Prop. Severely Endangered: 0.5,<br />Prop. Critically Endangered: 0.17,<br />Prop. Extinct: 0","Country: nepal,<br />Number of Endangered Languages: 85,<br />Proximity to Urban Center Score: 0.16,<br />Literacy Rate: 0.64,<br />Urbanization Rate: 32.06,<br />Prop. Vulnerable: 0.29,<br />Prop. Definitely Endangered: 0.44,<br />Prop. Severely Endangered: 0.18,<br />Prop. Critically Endangered: 0.08,<br />Prop. Extinct: 0.01","Country: nauru,<br />Number of Endangered Languages: 2,<br />Proximity to Urban Center Score: 0.28,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 1,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: new zealand,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.39,<br />Literacy Rate: 0.99,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 1,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: oman,<br />Number of Endangered Languages: 8,<br />Proximity to Urban Center Score: 0.59,<br />Literacy Rate: 0.91,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.25,<br />Prop. Severely Endangered: 0.5,<br />Prop. Critically Endangered: 0.25,<br />Prop. Extinct: 0","Country: pakistan,<br />Number of Endangered Languages: 29,<br />Proximity to Urban Center Score: 0.24,<br />Literacy Rate: 0.58,<br />Urbanization Rate: 16.39,<br />Prop. Vulnerable: 0.24,<br />Prop. Definitely Endangered: 0.52,<br />Prop. Severely Endangered: 0.24,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: panama,<br />Number of Endangered Languages: 16,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 0.95,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.62,<br />Prop. Definitely Endangered: 0.19,<br />Prop. Severely Endangered: 0.12,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0.06","Country: pitcairn islands,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 2.33,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 1,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: peru,<br />Number of Endangered Languages: 93,<br />Proximity to Urban Center Score: 0.44,<br />Literacy Rate: 0.94,<br />Urbanization Rate: 33.36,<br />Prop. Vulnerable: 0.19,<br />Prop. Definitely Endangered: 0.32,<br />Prop. Severely Endangered: 0.26,<br />Prop. Critically Endangered: 0.17,<br />Prop. Extinct: 0.05","Country: philippines,<br />Number of Endangered Languages: 15,<br />Proximity to Urban Center Score: 0.28,<br />Literacy Rate: 0.96,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.13,<br />Prop. Definitely Endangered: 0.2,<br />Prop. Severely Endangered: 0.2,<br />Prop. Critically Endangered: 0.27,<br />Prop. Extinct: 0.2","Country: palau,<br />Number of Endangered Languages: 2,<br />Proximity to Urban Center Score: 0.29,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0.5,<br />Prop. Critically Endangered: 0.5,<br />Prop. Extinct: 0","Country: papua new guinea,<br />Number of Endangered Languages: 99,<br />Proximity to Urban Center Score: 0.53,<br />Literacy Rate: 0.64,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.23,<br />Prop. Definitely Endangered: 0.15,<br />Prop. Severely Endangered: 0.3,<br />Prop. Critically Endangered: 0.21,<br />Prop. Extinct: 0.1","Country: poland,<br />Number of Endangered Languages: 24,<br />Proximity to Urban Center Score: 0.23,<br />Literacy Rate: 1,<br />Urbanization Rate: 5.5,<br />Prop. Vulnerable: 0.54,<br />Prop. Definitely Endangered: 0.33,<br />Prop. Severely Endangered: 0.08,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0.04","Country: portugal,<br />Number of Endangered Languages: 3,<br />Proximity to Urban Center Score: 0.31,<br />Literacy Rate: 0.96,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: paraguay,<br />Number of Endangered Languages: 12,<br />Proximity to Urban Center Score: 0.34,<br />Literacy Rate: 0.94,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.08,<br />Prop. Definitely Endangered: 0.42,<br />Prop. Severely Endangered: 0.33,<br />Prop. Critically Endangered: 0.17,<br />Prop. Extinct: 0","Country: palestinian territories,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.05,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 1,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: french polynesia,<br />Number of Endangered Languages: 4,<br />Proximity to Urban Center Score: 0.98,<br />Literacy Rate: NaN,<br />Urbanization Rate: -6.63,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.5,<br />Prop. Severely Endangered: 0.5,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: romania,<br />Number of Endangered Languages: 21,<br />Proximity to Urban Center Score: 0.2,<br />Literacy Rate: 0.99,<br />Urbanization Rate: 20.83,<br />Prop. Vulnerable: 0.19,<br />Prop. Definitely Endangered: 0.43,<br />Prop. Severely Endangered: 0.38,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: russia,<br />Number of Endangered Languages: 174,<br />Proximity to Urban Center Score: 0.62,<br />Literacy Rate: NaN,<br />Urbanization Rate: 11.21,<br />Prop. Vulnerable: 0.17,<br />Prop. Definitely Endangered: 0.33,<br />Prop. Severely Endangered: 0.21,<br />Prop. Critically Endangered: 0.14,<br />Prop. Extinct: 0.15","Country: sudan,<br />Number of Endangered Languages: 65,<br />Proximity to Urban Center Score: 0.56,<br />Literacy Rate: NaN,<br />Urbanization Rate: 18.3,<br />Prop. Vulnerable: 0.09,<br />Prop. Definitely Endangered: 0.25,<br />Prop. Severely Endangered: 0.35,<br />Prop. Critically Endangered: 0.22,<br />Prop. Extinct: 0.09","Country: senegal,<br />Number of Endangered Languages: 15,<br />Proximity to Urban Center Score: 0.1,<br />Literacy Rate: 0.58,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.67,<br />Prop. Definitely Endangered: 0.07,<br />Prop. Severely Endangered: 0.13,<br />Prop. Critically Endangered: 0.13,<br />Prop. Extinct: 0","Country: solomon islands,<br />Number of Endangered Languages: 18,<br />Proximity to Urban Center Score: 0.3,<br />Literacy Rate: 0.84,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.22,<br />Prop. Definitely Endangered: 0.17,<br />Prop. Severely Endangered: 0.17,<br />Prop. Critically Endangered: 0.22,<br />Prop. Extinct: 0.22","Country: sierra leone,<br />Number of Endangered Languages: 5,<br />Proximity to Urban Center Score: 0.16,<br />Literacy Rate: 0.48,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0.2,<br />Prop. Critically Endangered: 0.4,<br />Prop. Extinct: 0.4","Country: el salvador,<br />Number of Endangered Languages: 2,<br />Proximity to Urban Center Score: 0.05,<br />Literacy Rate: 0.9,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0.5,<br />Prop. Extinct: 0.5","Country: san marino,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.04,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: serbia,<br />Number of Endangered Languages: 14,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 0.98,<br />Urbanization Rate: 26.51,<br />Prop. Vulnerable: 0.21,<br />Prop. Definitely Endangered: 0.71,<br />Prop. Severely Endangered: 0.07,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: suriname,<br />Number of Endangered Languages: 10,<br />Proximity to Urban Center Score: 0.39,<br />Literacy Rate: 0.96,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.2,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0.3,<br />Prop. Critically Endangered: 0.5,<br />Prop. Extinct: 0","Country: slovakia,<br />Number of Endangered Languages: 13,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 1,<br />Urbanization Rate: 26.51,<br />Prop. Vulnerable: 0.15,<br />Prop. Definitely Endangered: 0.85,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: slovenia,<br />Number of Endangered Languages: 9,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 1,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.11,<br />Prop. Definitely Endangered: 0.78,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0.11,<br />Prop. Extinct: 0","Country: sweden,<br />Number of Endangered Languages: 9,<br />Proximity to Urban Center Score: 0.5,<br />Literacy Rate: 0.99,<br />Urbanization Rate: 14.66,<br />Prop. Vulnerable: 0.11,<br />Prop. Definitely Endangered: 0.44,<br />Prop. Severely Endangered: 0.22,<br />Prop. Critically Endangered: 0.22,<br />Prop. Extinct: 0","Country: syria,<br />Number of Endangered Languages: 8,<br />Proximity to Urban Center Score: 0.36,<br />Literacy Rate: 0.86,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.12,<br />Prop. Definitely Endangered: 0.5,<br />Prop. Severely Endangered: 0.25,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0.12","Country: chad,<br />Number of Endangered Languages: 29,<br />Proximity to Urban Center Score: 0.37,<br />Literacy Rate: 0.4,<br />Urbanization Rate: 25.88,<br />Prop. Vulnerable: 0.03,<br />Prop. Definitely Endangered: 0.24,<br />Prop. Severely Endangered: 0.38,<br />Prop. Critically Endangered: 0.28,<br />Prop. Extinct: 0.07","Country: togo,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.28,<br />Literacy Rate: 0.66,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 1","Country: thailand,<br />Number of Endangered Languages: 26,<br />Proximity to Urban Center Score: 0.28,<br />Literacy Rate: 0.97,<br />Urbanization Rate: 34.86,<br />Prop. Vulnerable: 0.08,<br />Prop. Definitely Endangered: 0.58,<br />Prop. Severely Endangered: 0.15,<br />Prop. Critically Endangered: 0.15,<br />Prop. Extinct: 0.04","Country: tajikistan,<br />Number of Endangered Languages: 12,<br />Proximity to Urban Center Score: 0.26,<br />Literacy Rate: 1,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.08,<br />Prop. Definitely Endangered: 0.42,<br />Prop. Severely Endangered: 0.5,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: tokelau,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.07,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 1,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: turkmenistan,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.31,<br />Literacy Rate: 1,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: timor-leste,<br />Number of Endangered Languages: 6,<br />Proximity to Urban Center Score: 0.08,<br />Literacy Rate: NaN,<br />Urbanization Rate: 15.21,<br />Prop. Vulnerable: 0.67,<br />Prop. Definitely Endangered: 0.17,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0.17,<br />Prop. Extinct: 0","Country: tunisia,<br />Number of Endangered Languages: 3,<br />Proximity to Urban Center Score: 0.15,<br />Literacy Rate: 0.82,<br />Urbanization Rate: 10.6,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0.33,<br />Prop. Critically Endangered: 0.33,<br />Prop. Extinct: 0.33","Country: turkey,<br />Number of Endangered Languages: 26,<br />Proximity to Urban Center Score: 0.3,<br />Literacy Rate: 0.95,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.15,<br />Prop. Definitely Endangered: 0.54,<br />Prop. Severely Endangered: 0.15,<br />Prop. Critically Endangered: 0.04,<br />Prop. Extinct: 0.12","Country: tuvalu,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: tanzania,<br />Number of Endangered Languages: 13,<br />Proximity to Urban Center Score: 0.26,<br />Literacy Rate: 0.71,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.38,<br />Prop. Definitely Endangered: 0.15,<br />Prop. Severely Endangered: 0.15,<br />Prop. Critically Endangered: 0.15,<br />Prop. Extinct: 0.15","Country: uganda,<br />Number of Endangered Languages: 6,<br />Proximity to Urban Center Score: 0.27,<br />Literacy Rate: 0.78,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.17,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0.17,<br />Prop. Critically Endangered: 0.17,<br />Prop. Extinct: 0.5","Country: ukraine,<br />Number of Endangered Languages: 25,<br />Proximity to Urban Center Score: 0.25,<br />Literacy Rate: 1,<br />Urbanization Rate: 5.5,<br />Prop. Vulnerable: 0.16,<br />Prop. Definitely Endangered: 0.52,<br />Prop. Severely Endangered: 0.2,<br />Prop. Critically Endangered: 0.04,<br />Prop. Extinct: 0.08","Country: uruguay,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.48,<br />Literacy Rate: 0.98,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 1,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: united states,<br />Number of Endangered Languages: 228,<br />Proximity to Urban Center Score: 2.59,<br />Literacy Rate: 0.86,<br />Urbanization Rate: 24.78,<br />Prop. Vulnerable: 0.06,<br />Prop. Definitely Endangered: 0.13,<br />Prop. Severely Endangered: 0.2,<br />Prop. Critically Endangered: 0.37,<br />Prop. Extinct: 0.24","Country: uzbekistan,<br />Number of Endangered Languages: 4,<br />Proximity to Urban Center Score: 0.25,<br />Literacy Rate: 1,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.75,<br />Prop. Severely Endangered: 0.25,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: venezuela,<br />Number of Endangered Languages: 41,<br />Proximity to Urban Center Score: 0.55,<br />Literacy Rate: 0.96,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.34,<br />Prop. Definitely Endangered: 0.24,<br />Prop. Severely Endangered: 0.2,<br />Prop. Critically Endangered: 0.22,<br />Prop. Extinct: 0","Country: vietnam,<br />Number of Endangered Languages: 39,<br />Proximity to Urban Center Score: 0.24,<br />Literacy Rate: 0.94,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.13,<br />Prop. Definitely Endangered: 0.69,<br />Prop. Severely Endangered: 0.1,<br />Prop. Critically Endangered: 0.08,<br />Prop. Extinct: 0","Country: vanuatu,<br />Number of Endangered Languages: 47,<br />Proximity to Urban Center Score: 0.25,<br />Literacy Rate: NaN,<br />Urbanization Rate: 16.22,<br />Prop. Vulnerable: 0.19,<br />Prop. Definitely Endangered: 0.21,<br />Prop. Severely Endangered: 0.06,<br />Prop. Critically Endangered: 0.47,<br />Prop. Extinct: 0.06","Country: yemen,<br />Number of Endangered Languages: 4,<br />Proximity to Urban Center Score: 0.89,<br />Literacy Rate: 0.7,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.5,<br />Prop. Severely Endangered: 0.5,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: south africa,<br />Number of Endangered Languages: 10,<br />Proximity to Urban Center Score: 0.3,<br />Literacy Rate: 0.94,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0.3,<br />Prop. Extinct: 0.7","Country: NA,<br />Number of Endangered Languages: 6,<br />Proximity to Urban Center Score: 0.44,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0"],"z":[2,2,5,2,2,3,2,3,1.5,4,2,1,2,2,1.5,2.5,1,2,1,2,3,3,2,3.5,2,4,4,2.5,2,2,2.5,3,2,1,5,1,3,2,3,4,4,2,2,2,2,1,2,1,3,2.5,2,2,1,3,4,2,2,2,1,3,1,2.5,3.5,2,2,2,2,3.5,2,2,3,2,2,2,2,4,2,3,4,2,2.5,3,1,2,2,2,2,2,3.5,2,2,2,2,2,3,2,2,3,3,2,2,2,2,4,3,2,1,3,2,3,1,3,2,1,1,2,3,3.5,3,1,2,2.5,3,2.5,2,2.5,3,1,3,4,4.5,2,2,3.5,2,2,2,2,3,5,2,2.5,3,2,1,4,2,2,2,4.5,2,3,4,2,2,2,4,2.5,5,3.5],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20]}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"mapType":"geo","showlegend":false,"geo":{"domain":{"x":[0,1],"y":[0,1]},"showframe":true,"showocean":true,"oceancolor":"rgb(222,243,246)","projection":{"type":"orthographic","rotation":{"lon":60,"lat":10}},"lonaxis":{"showgrid":false,"gridcolor":"rgb(102, 102, 102)"},"lataxis":{"showgrid":false,"gridcolor":"rgb(102, 102, 102)"}},"title":"Median Degree of Endangerment by Country","scene":{"zaxis":{"title":[]}},"hovermode":"closest","legend":{"yanchor":"top","y":0.5}},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"colorbar":{"title":"","ticklen":2,"len":0.5,"lenmode":"fraction","y":1,"yanchor":"top"},"colorscale":"RdOrYl","showscale":true,"locations":["AFG","ALB","ANG","ARG","ARM","AUS","AUT","AZE","BEL","BEN","BFA","BGD","BGR","BIH","BLZ","BOL","BRA","BRB","BTN","BWA","CAF","CAN","CHE","CHL","CHN","CIV","CMR","COG","COK","COL","CRI","CYP","CZE","DEU","DMA","DNK","DZA","ECU","EGY","ERI","ESH","ESP","EST","ETH","FIN","FJI","FRA","FRO","FSM","GAB","GBR","GEO","GHA","GIN","GNB","GNQ","GRC","GRL","GTM","GUF","GUM","GUY","HND","HRV","HUN","IDN","IND","IRL","IRN","IRQ","ISR","ITA","JOR","JPN","KAZ","KEN","KGZ","KHM","KOR","LAO","LBN","LBY","LIE","LKA","LSO","LTU","LUX","LVA","MAR","MCO","MDA","MEX","MKD","MLI","MMR","MNE","MNG","MRT","MYS","NAM","NCL","NER","NFK","NGA","NIC","NIU","NLD","NOR","NPL","NRU","NZL","OMN","PAK","PAN","PCN","PER","PHL","PLW","PNG","POL","PRT","PRY","PSE","PYF","ROU","RUS","SDN","SEN","SLB","SLE","SLV","SMR","SRB","SUR","SVK","SVN","SWE","SYR","TCD","TGO","THA","TJK","TKL","TKM","TLS","TUN","TUR","TUV","TZA","UGA","UKR","URY","USA","UZB","VEN","VNM","VUT","YEM","ZAF","ZAI"],"marker":{"colorbar":{"title":"Country Median DoE"},"line":{"color":"rgba(31,119,180,1)"}},"text":["Country: afghanistan,<br />Number of Endangered Languages: 28,<br />Proximity to Urban Center Score: 0.21,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.21,<br />Prop. Definitely Endangered: 0.5,<br />Prop. Severely Endangered: 0.21,<br />Prop. Critically Endangered: 0.07,<br />Prop. Extinct: 0","Country: albania,<br />Number of Endangered Languages: 12,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 0.99,<br />Urbanization Rate: 26.51,<br />Prop. Vulnerable: 0.25,<br />Prop. Definitely Endangered: 0.67,<br />Prop. Severely Endangered: 0.08,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: NA,<br />Number of Endangered Languages: 4,<br />Proximity to Urban Center Score: 0.44,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: argentina,<br />Number of Endangered Languages: 21,<br />Proximity to Urban Center Score: 0.63,<br />Literacy Rate: 0.98,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.29,<br />Prop. Definitely Endangered: 0.24,<br />Prop. Severely Endangered: 0.19,<br />Prop. Critically Endangered: 0.1,<br />Prop. Extinct: 0.19","Country: armenia,<br />Number of Endangered Languages: 3,<br />Proximity to Urban Center Score: 0.36,<br />Literacy Rate: 1,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: australia,<br />Number of Endangered Languages: 109,<br />Proximity to Urban Center Score: 1.06,<br />Literacy Rate: 0.99,<br />Urbanization Rate: 23.72,<br />Prop. Vulnerable: 0.17,<br />Prop. Definitely Endangered: 0.12,<br />Prop. Severely Endangered: 0.28,<br />Prop. Critically Endangered: 0.39,<br />Prop. Extinct: 0.06","Country: austria,<br />Number of Endangered Languages: 15,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 0.98,<br />Urbanization Rate: 26.51,<br />Prop. Vulnerable: 0.27,<br />Prop. Definitely Endangered: 0.73,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: azerbaijan,<br />Number of Endangered Languages: 11,<br />Proximity to Urban Center Score: 0.19,<br />Literacy Rate: 1,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.18,<br />Prop. Definitely Endangered: 0.27,<br />Prop. Severely Endangered: 0.45,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0.09","Country: belgium,<br />Number of Endangered Languages: 10,<br />Proximity to Urban Center Score: 0.11,<br />Literacy Rate: 0.99,<br />Urbanization Rate: 18.3,<br />Prop. Vulnerable: 0.5,<br />Prop. Definitely Endangered: 0.2,<br />Prop. Severely Endangered: 0.3,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: benin,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.26,<br />Literacy Rate: 0.38,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 1,<br />Prop. Extinct: 0","Country: burkina faso,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 0.38,<br />Urbanization Rate: 9.38,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: bangladesh,<br />Number of Endangered Languages: 5,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 0.62,<br />Urbanization Rate: 37.57,<br />Prop. Vulnerable: 0.6,<br />Prop. Definitely Endangered: 0.2,<br />Prop. Severely Endangered: 0.2,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: bulgaria,<br />Number of Endangered Languages: 18,<br />Proximity to Urban Center Score: 0.2,<br />Literacy Rate: 0.98,<br />Urbanization Rate: 26.51,<br />Prop. Vulnerable: 0.17,<br />Prop. Definitely Endangered: 0.44,<br />Prop. Severely Endangered: 0.28,<br />Prop. Critically Endangered: 0.11,<br />Prop. Extinct: 0","Country: bosnia & herzegovina,<br />Number of Endangered Languages: 8,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.88,<br />Prop. Severely Endangered: 0.12,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: belize,<br />Number of Endangered Languages: 4,<br />Proximity to Urban Center Score: 0.05,<br />Literacy Rate: 0.83,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.5,<br />Prop. Definitely Endangered: 0.25,<br />Prop. Severely Endangered: 0.25,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: bolivia,<br />Number of Endangered Languages: 44,<br />Proximity to Urban Center Score: 0.5,<br />Literacy Rate: 0.96,<br />Urbanization Rate: 39.87,<br />Prop. Vulnerable: 0.23,<br />Prop. Definitely Endangered: 0.27,<br />Prop. Severely Endangered: 0.18,<br />Prop. Critically Endangered: 0.23,<br />Prop. Extinct: 0.09","Country: brazil,<br />Number of Endangered Languages: 210,<br />Proximity to Urban Center Score: 0.83,<br />Literacy Rate: 0.92,<br />Urbanization Rate: 30.16,<br />Prop. Vulnerable: 0.53,<br />Prop. Definitely Endangered: 0.09,<br />Prop. Severely Endangered: 0.09,<br />Prop. Critically Endangered: 0.22,<br />Prop. Extinct: 0.07","Country: barbados,<br />Number of Endangered Languages: 10,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 1,<br />Urbanization Rate: 5.5,<br />Prop. Vulnerable: 0.2,<br />Prop. Definitely Endangered: 0.8,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: bhutan,<br />Number of Endangered Languages: 19,<br />Proximity to Urban Center Score: 0.13,<br />Literacy Rate: 0.64,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.53,<br />Prop. Definitely Endangered: 0.47,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: botswana,<br />Number of Endangered Languages: 11,<br />Proximity to Urban Center Score: 0.49,<br />Literacy Rate: 0.88,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.18,<br />Prop. Definitely Endangered: 0.45,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0.27,<br />Prop. Extinct: 0.09","Country: central african republic,<br />Number of Endangered Languages: 5,<br />Proximity to Urban Center Score: 0.51,<br />Literacy Rate: 0.37,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.2,<br />Prop. Definitely Endangered: 0.2,<br />Prop. Severely Endangered: 0.2,<br />Prop. Critically Endangered: 0.4,<br />Prop. Extinct: 0","Country: canada,<br />Number of Endangered Languages: 95,<br />Proximity to Urban Center Score: 2.63,<br />Literacy Rate: 0.99,<br />Urbanization Rate: 20.88,<br />Prop. Vulnerable: 0.25,<br />Prop. Definitely Endangered: 0.19,<br />Prop. Severely Endangered: 0.2,<br />Prop. Critically Endangered: 0.34,<br />Prop. Extinct: 0.02","Country: switzerland,<br />Number of Endangered Languages: 16,<br />Proximity to Urban Center Score: 0.19,<br />Literacy Rate: 0.99,<br />Urbanization Rate: 18.3,<br />Prop. Vulnerable: 0.25,<br />Prop. Definitely Endangered: 0.69,<br />Prop. Severely Endangered: 0.06,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: chile,<br />Number of Endangered Languages: 8,<br />Proximity to Urban Center Score: 0.72,<br />Literacy Rate: 0.96,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.25,<br />Prop. Definitely Endangered: 0.12,<br />Prop. Severely Endangered: 0.12,<br />Prop. Critically Endangered: 0.38,<br />Prop. Extinct: 0.12","Country: china,<br />Number of Endangered Languages: 180,<br />Proximity to Urban Center Score: 0.53,<br />Literacy Rate: 0.98,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.32,<br />Prop. Definitely Endangered: 0.34,<br />Prop. Severely Endangered: 0.13,<br />Prop. Critically Endangered: 0.16,<br />Prop. Extinct: 0.06","Country: côte d’ivoire,<br />Number of Endangered Languages: 4,<br />Proximity to Urban Center Score: 0.26,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0.5,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0.5","Country: cameroon,<br />Number of Endangered Languages: 36,<br />Proximity to Urban Center Score: 0.29,<br />Literacy Rate: 0.75,<br />Urbanization Rate: 46.39,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.08,<br />Prop. Severely Endangered: 0.36,<br />Prop. Critically Endangered: 0.44,<br />Prop. Extinct: 0.11","Country: congo - brazzaville,<br />Number of Endangered Languages: 2,<br />Proximity to Urban Center Score: 0.36,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.5,<br />Prop. Severely Endangered: 0.5,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: cook islands,<br />Number of Endangered Languages: 4,<br />Proximity to Urban Center Score: 0.87,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.25,<br />Prop. Definitely Endangered: 0.5,<br />Prop. Severely Endangered: 0.25,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: colombia,<br />Number of Endangered Languages: 85,<br />Proximity to Urban Center Score: 0.5,<br />Literacy Rate: 0.06,<br />Urbanization Rate: 36.09,<br />Prop. Vulnerable: 0.24,<br />Prop. Definitely Endangered: 0.39,<br />Prop. Severely Endangered: 0.16,<br />Prop. Critically Endangered: 0.16,<br />Prop. Extinct: 0.05","Country: costa rica,<br />Number of Endangered Languages: 8,<br />Proximity to Urban Center Score: 0.12,<br />Literacy Rate: 0.98,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.25,<br />Prop. Definitely Endangered: 0.25,<br />Prop. Severely Endangered: 0.12,<br />Prop. Critically Endangered: 0.38,<br />Prop. Extinct: 0","Country: cyprus,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.02,<br />Literacy Rate: 0.99,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 1,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: czechia,<br />Number of Endangered Languages: 10,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.2,<br />Prop. Definitely Endangered: 0.8,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: germany,<br />Number of Endangered Languages: 33,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 0.99,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.58,<br />Prop. Definitely Endangered: 0.33,<br />Prop. Severely Endangered: 0.06,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0.03","Country: dominica,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.02,<br />Literacy Rate: 0.92,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 1","Country: denmark,<br />Number of Endangered Languages: 13,<br />Proximity to Urban Center Score: 0.23,<br />Literacy Rate: 0.99,<br />Urbanization Rate: 14.66,<br />Prop. Vulnerable: 0.85,<br />Prop. Definitely Endangered: 0.15,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: algeria,<br />Number of Endangered Languages: 13,<br />Proximity to Urban Center Score: 0.48,<br />Literacy Rate: 0.8,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.31,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0.46,<br />Prop. Critically Endangered: 0.23,<br />Prop. Extinct: 0","Country: ecuador,<br />Number of Endangered Languages: 63,<br />Proximity to Urban Center Score: 0.19,<br />Literacy Rate: 0.94,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.02,<br />Prop. Definitely Endangered: 0.63,<br />Prop. Severely Endangered: 0.29,<br />Prop. Critically Endangered: 0.03,<br />Prop. Extinct: 0.03","Country: egypt,<br />Number of Endangered Languages: 3,<br />Proximity to Urban Center Score: 0.41,<br />Literacy Rate: 0.75,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.33,<br />Prop. Severely Endangered: 0.33,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0.33","Country: eritrea,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.13,<br />Literacy Rate: 0.68,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 1,<br />Prop. Extinct: 0","Country: western sahara,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.52,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 1,<br />Prop. Extinct: 0","Country: spain,<br />Number of Endangered Languages: 8,<br />Proximity to Urban Center Score: 0.28,<br />Literacy Rate: 0.98,<br />Urbanization Rate: 18.14,<br />Prop. Vulnerable: 0.12,<br />Prop. Definitely Endangered: 0.62,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0.25","Country: estonia,<br />Number of Endangered Languages: 9,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 1,<br />Urbanization Rate: 11.18,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: ethiopia,<br />Number of Endangered Languages: 28,<br />Proximity to Urban Center Score: 0.42,<br />Literacy Rate: 0.49,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.29,<br />Prop. Definitely Endangered: 0.25,<br />Prop. Severely Endangered: 0.11,<br />Prop. Critically Endangered: 0.21,<br />Prop. Extinct: 0.14","Country: finland,<br />Number of Endangered Languages: 14,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 1,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.79,<br />Prop. Severely Endangered: 0.14,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0.07","Country: fiji,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.5,<br />Literacy Rate: 0.94,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 1,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: france,<br />Number of Endangered Languages: 35,<br />Proximity to Urban Center Score: 0.15,<br />Literacy Rate: 0.99,<br />Urbanization Rate: 18.3,<br />Prop. Vulnerable: 0.23,<br />Prop. Definitely Endangered: 0.4,<br />Prop. Severely Endangered: 0.37,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: faroe islands,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 1,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: micronesia (federated states of),<br />Number of Endangered Languages: 13,<br />Proximity to Urban Center Score: 0.56,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.23,<br />Prop. Severely Endangered: 0.69,<br />Prop. Critically Endangered: 0.08,<br />Prop. Extinct: 0","Country: gabon,<br />Number of Endangered Languages: 8,<br />Proximity to Urban Center Score: 0.31,<br />Literacy Rate: 0.83,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.5,<br />Prop. Severely Endangered: 0.5,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: united kingdom,<br />Number of Endangered Languages: 18,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: NaN,<br />Urbanization Rate: 12.2,<br />Prop. Vulnerable: 0.11,<br />Prop. Definitely Endangered: 0.56,<br />Prop. Severely Endangered: 0.11,<br />Prop. Critically Endangered: 0.11,<br />Prop. Extinct: 0.11","Country: georgia,<br />Number of Endangered Languages: 11,<br />Proximity to Urban Center Score: 0.27,<br />Literacy Rate: 1,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.18,<br />Prop. Definitely Endangered: 0.45,<br />Prop. Severely Endangered: 0.36,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: ghana,<br />Number of Endangered Languages: 5,<br />Proximity to Urban Center Score: 0.19,<br />Literacy Rate: 0.77,<br />Urbanization Rate: 16.16,<br />Prop. Vulnerable: 0.6,<br />Prop. Definitely Endangered: 0.2,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0.2,<br />Prop. Extinct: 0","Country: guinea,<br />Number of Endangered Languages: 8,<br />Proximity to Urban Center Score: 0.12,<br />Literacy Rate: 0.3,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.38,<br />Prop. Severely Endangered: 0.25,<br />Prop. Critically Endangered: 0.25,<br />Prop. Extinct: 0.12","Country: guinea-bissau,<br />Number of Endangered Languages: 3,<br />Proximity to Urban Center Score: 0.1,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.33,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0.67,<br />Prop. Extinct: 0","Country: equatorial guinea,<br />Number of Endangered Languages: 3,<br />Proximity to Urban Center Score: 0.2,<br />Literacy Rate: 0.84,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: greece,<br />Number of Endangered Languages: 17,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 0.98,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.53,<br />Prop. Severely Endangered: 0.29,<br />Prop. Critically Endangered: 0.18,<br />Prop. Extinct: 0","Country: greenland,<br />Number of Endangered Languages: 3,<br />Proximity to Urban Center Score: 0.68,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.33,<br />Prop. Definitely Endangered: 0.67,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: guatemala,<br />Number of Endangered Languages: 25,<br />Proximity to Urban Center Score: 0.11,<br />Literacy Rate: 0.81,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.56,<br />Prop. Definitely Endangered: 0.32,<br />Prop. Severely Endangered: 0.04,<br />Prop. Critically Endangered: 0.08,<br />Prop. Extinct: 0","Country: french guiana,<br />Number of Endangered Languages: 5,<br />Proximity to Urban Center Score: 0.16,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.4,<br />Prop. Severely Endangered: 0.6,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: guam,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.01,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 1,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: guyana,<br />Number of Endangered Languages: 14,<br />Proximity to Urban Center Score: 0.34,<br />Literacy Rate: 0.88,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.36,<br />Prop. Definitely Endangered: 0.14,<br />Prop. Severely Endangered: 0.14,<br />Prop. Critically Endangered: 0.36,<br />Prop. Extinct: 0","Country: honduras,<br />Number of Endangered Languages: 8,<br />Proximity to Urban Center Score: 0.2,<br />Literacy Rate: 0.88,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.25,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0.25,<br />Prop. Critically Endangered: 0.38,<br />Prop. Extinct: 0.12","Country: croatia,<br />Number of Endangered Languages: 14,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 0.99,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.07,<br />Prop. Definitely Endangered: 0.57,<br />Prop. Severely Endangered: 0.29,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0.07","Country: hungary,<br />Number of Endangered Languages: 14,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 0.99,<br />Urbanization Rate: 26.51,<br />Prop. Vulnerable: 0.14,<br />Prop. Definitely Endangered: 0.79,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0.07","Country: indonesia,<br />Number of Endangered Languages: 149,<br />Proximity to Urban Center Score: 0.92,<br />Literacy Rate: 0.94,<br />Urbanization Rate: 28.14,<br />Prop. Vulnerable: 0.38,<br />Prop. Definitely Endangered: 0.2,<br />Prop. Severely Endangered: 0.13,<br />Prop. Critically Endangered: 0.21,<br />Prop. Extinct: 0.08","Country: india,<br />Number of Endangered Languages: 213,<br />Proximity to Urban Center Score: 0.41,<br />Literacy Rate: 0.71,<br />Urbanization Rate: 22.3,<br />Prop. Vulnerable: 0.42,<br />Prop. Definitely Endangered: 0.32,<br />Prop. Severely Endangered: 0.03,<br />Prop. Critically Endangered: 0.2,<br />Prop. Extinct: 0.03","Country: ireland,<br />Number of Endangered Languages: 2,<br />Proximity to Urban Center Score: 0.16,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.5,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0.5","Country: iran,<br />Number of Endangered Languages: 48,<br />Proximity to Urban Center Score: 0.28,<br />Literacy Rate: 0.87,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.08,<br />Prop. Definitely Endangered: 0.77,<br />Prop. Severely Endangered: 0.04,<br />Prop. Critically Endangered: 0.06,<br />Prop. Extinct: 0.04","Country: iraq,<br />Number of Endangered Languages: 12,<br />Proximity to Urban Center Score: 0.3,<br />Literacy Rate: 0.8,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.08,<br />Prop. Definitely Endangered: 0.58,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0.08,<br />Prop. Extinct: 0.25","Country: israel,<br />Number of Endangered Languages: 13,<br />Proximity to Urban Center Score: 0.05,<br />Literacy Rate: 0.98,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.08,<br />Prop. Definitely Endangered: 0.23,<br />Prop. Severely Endangered: 0.62,<br />Prop. Critically Endangered: 0.08,<br />Prop. Extinct: 0","Country: italy,<br />Number of Endangered Languages: 44,<br />Proximity to Urban Center Score: 0.19,<br />Literacy Rate: 0.99,<br />Urbanization Rate: 27.69,<br />Prop. Vulnerable: 0.16,<br />Prop. Definitely Endangered: 0.64,<br />Prop. Severely Endangered: 0.2,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: jordan,<br />Number of Endangered Languages: 2,<br />Proximity to Urban Center Score: 0.3,<br />Literacy Rate: 0.95,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.5,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0.5,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: japan,<br />Number of Endangered Languages: 13,<br />Proximity to Urban Center Score: 0.69,<br />Literacy Rate: 0.99,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.77,<br />Prop. Severely Endangered: 0.15,<br />Prop. Critically Endangered: 0.08,<br />Prop. Extinct: 0","Country: kazakhstan,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.32,<br />Literacy Rate: 1,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: kenya,<br />Number of Endangered Languages: 14,<br />Proximity to Urban Center Score: 0.26,<br />Literacy Rate: 0.78,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.21,<br />Prop. Definitely Endangered: 0.14,<br />Prop. Severely Endangered: 0.07,<br />Prop. Critically Endangered: 0.14,<br />Prop. Extinct: 0.43","Country: kyrgyzstan,<br />Number of Endangered Languages: 2,<br />Proximity to Urban Center Score: 0.75,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: cambodia,<br />Number of Endangered Languages: 19,<br />Proximity to Urban Center Score: 0.25,<br />Literacy Rate: 0.78,<br />Urbanization Rate: 33.09,<br />Prop. Vulnerable: 0.05,<br />Prop. Definitely Endangered: 0.05,<br />Prop. Severely Endangered: 0.42,<br />Prop. Critically Endangered: 0.47,<br />Prop. Extinct: 0","Country: south korea,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.47,<br />Literacy Rate: 0.98,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 1,<br />Prop. Extinct: 0","Country: laos,<br />Number of Endangered Languages: 33,<br />Proximity to Urban Center Score: 0.32,<br />Literacy Rate: 0.8,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.09,<br />Prop. Definitely Endangered: 0.7,<br />Prop. Severely Endangered: 0.15,<br />Prop. Critically Endangered: 0.06,<br />Prop. Extinct: 0","Country: lebanon,<br />Number of Endangered Languages: 2,<br />Proximity to Urban Center Score: 0.03,<br />Literacy Rate: 0.94,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.5,<br />Prop. Severely Endangered: 0.5,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: libya,<br />Number of Endangered Languages: 6,<br />Proximity to Urban Center Score: 0.61,<br />Literacy Rate: 0.91,<br />Urbanization Rate: 32.16,<br />Prop. Vulnerable: 0.17,<br />Prop. Definitely Endangered: 0.17,<br />Prop. Severely Endangered: 0.5,<br />Prop. Critically Endangered: 0.17,<br />Prop. Extinct: 0","Country: liechtenstein,<br />Number of Endangered Languages: 3,<br />Proximity to Urban Center Score: 0.04,<br />Literacy Rate: 1,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 1,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: sri lanka,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.18,<br />Literacy Rate: 0.93,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: lesotho,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.08,<br />Literacy Rate: 0.79,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: lithuania,<br />Number of Endangered Languages: 10,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 1,<br />Urbanization Rate: 5.5,<br />Prop. Vulnerable: 0.1,<br />Prop. Definitely Endangered: 0.8,<br />Prop. Severely Endangered: 0.1,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: luxembourg,<br />Number of Endangered Languages: 3,<br />Proximity to Urban Center Score: 0.06,<br />Literacy Rate: 1,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.33,<br />Prop. Definitely Endangered: 0.67,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: latvia,<br />Number of Endangered Languages: 12,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 1,<br />Urbanization Rate: 5.5,<br />Prop. Vulnerable: 0.17,<br />Prop. Definitely Endangered: 0.67,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0.08,<br />Prop. Extinct: 0.08","Country: morocco,<br />Number of Endangered Languages: 8,<br />Proximity to Urban Center Score: 0.25,<br />Literacy Rate: 0.69,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.12,<br />Prop. Definitely Endangered: 0.12,<br />Prop. Severely Endangered: 0.25,<br />Prop. Critically Endangered: 0.25,<br />Prop. Extinct: 0.25","Country: monaco,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.14,<br />Literacy Rate: 0.99,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: moldova,<br />Number of Endangered Languages: 3,<br />Proximity to Urban Center Score: 0.1,<br />Literacy Rate: 0.99,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: mexico,<br />Number of Endangered Languages: 148,<br />Proximity to Urban Center Score: 0.29,<br />Literacy Rate: 0.95,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.38,<br />Prop. Definitely Endangered: 0.26,<br />Prop. Severely Endangered: 0.22,<br />Prop. Critically Endangered: 0.15,<br />Prop. Extinct: 0","Country: north macedonia,<br />Number of Endangered Languages: 16,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: NaN,<br />Urbanization Rate: 26.51,<br />Prop. Vulnerable: 0.25,<br />Prop. Definitely Endangered: 0.5,<br />Prop. Severely Endangered: 0.25,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: mali,<br />Number of Endangered Languages: 2,<br />Proximity to Urban Center Score: 0.4,<br />Literacy Rate: 0.39,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: myanmar (burma),<br />Number of Endangered Languages: 28,<br />Proximity to Urban Center Score: 0.43,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.11,<br />Prop. Definitely Endangered: 0.25,<br />Prop. Severely Endangered: 0.29,<br />Prop. Critically Endangered: 0.21,<br />Prop. Extinct: 0.14","Country: montenegro,<br />Number of Endangered Languages: 7,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 0.99,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: mongolia,<br />Number of Endangered Languages: 10,<br />Proximity to Urban Center Score: 0.9,<br />Literacy Rate: 0.98,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.1,<br />Prop. Definitely Endangered: 0.5,<br />Prop. Severely Endangered: 0.3,<br />Prop. Critically Endangered: 0.1,<br />Prop. Extinct: 0","Country: mauritania,<br />Number of Endangered Languages: 3,<br />Proximity to Urban Center Score: 0.33,<br />Literacy Rate: 0.52,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.33,<br />Prop. Severely Endangered: 0.33,<br />Prop. Critically Endangered: 0.33,<br />Prop. Extinct: 0","Country: malaysia,<br />Number of Endangered Languages: 25,<br />Proximity to Urban Center Score: 0.19,<br />Literacy Rate: 0.95,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.2,<br />Prop. Severely Endangered: 0.36,<br />Prop. Critically Endangered: 0.32,<br />Prop. Extinct: 0.12","Country: namibia,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.66,<br />Literacy Rate: 0.82,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: new caledonia,<br />Number of Endangered Languages: 24,<br />Proximity to Urban Center Score: 0.23,<br />Literacy Rate: NaN,<br />Urbanization Rate: 65.64,<br />Prop. Vulnerable: 0.33,<br />Prop. Definitely Endangered: 0.42,<br />Prop. Severely Endangered: 0.12,<br />Prop. Critically Endangered: 0.08,<br />Prop. Extinct: 0.04","Country: niger,<br />Number of Endangered Languages: 2,<br />Proximity to Urban Center Score: 0.63,<br />Literacy Rate: 0.19,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.5,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0.5,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: norfolk island,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.76,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: nigeria,<br />Number of Endangered Languages: 29,<br />Proximity to Urban Center Score: 0.26,<br />Literacy Rate: 0.6,<br />Urbanization Rate: 23.69,<br />Prop. Vulnerable: 0.1,<br />Prop. Definitely Endangered: 0.07,<br />Prop. Severely Endangered: 0.28,<br />Prop. Critically Endangered: 0.48,<br />Prop. Extinct: 0.07","Country: nicaragua,<br />Number of Endangered Languages: 11,<br />Proximity to Urban Center Score: 0.23,<br />Literacy Rate: 0.83,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.18,<br />Prop. Definitely Endangered: 0.18,<br />Prop. Severely Endangered: 0.18,<br />Prop. Critically Endangered: 0.18,<br />Prop. Extinct: 0.27","Country: niue,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.01,<br />Literacy Rate: NaN,<br />Urbanization Rate: 10.47,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: netherlands,<br />Number of Endangered Languages: 23,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 0.99,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.65,<br />Prop. Definitely Endangered: 0.35,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: norway,<br />Number of Endangered Languages: 6,<br />Proximity to Urban Center Score: 0.8,<br />Literacy Rate: 1,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.33,<br />Prop. Severely Endangered: 0.5,<br />Prop. Critically Endangered: 0.17,<br />Prop. Extinct: 0","Country: nepal,<br />Number of Endangered Languages: 85,<br />Proximity to Urban Center Score: 0.16,<br />Literacy Rate: 0.64,<br />Urbanization Rate: 32.06,<br />Prop. Vulnerable: 0.29,<br />Prop. Definitely Endangered: 0.44,<br />Prop. Severely Endangered: 0.18,<br />Prop. Critically Endangered: 0.08,<br />Prop. Extinct: 0.01","Country: nauru,<br />Number of Endangered Languages: 2,<br />Proximity to Urban Center Score: 0.28,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 1,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: new zealand,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.39,<br />Literacy Rate: 0.99,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 1,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: oman,<br />Number of Endangered Languages: 8,<br />Proximity to Urban Center Score: 0.59,<br />Literacy Rate: 0.91,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.25,<br />Prop. Severely Endangered: 0.5,<br />Prop. Critically Endangered: 0.25,<br />Prop. Extinct: 0","Country: pakistan,<br />Number of Endangered Languages: 29,<br />Proximity to Urban Center Score: 0.24,<br />Literacy Rate: 0.58,<br />Urbanization Rate: 16.39,<br />Prop. Vulnerable: 0.24,<br />Prop. Definitely Endangered: 0.52,<br />Prop. Severely Endangered: 0.24,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: panama,<br />Number of Endangered Languages: 16,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 0.95,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.62,<br />Prop. Definitely Endangered: 0.19,<br />Prop. Severely Endangered: 0.12,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0.06","Country: pitcairn islands,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 2.33,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 1,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: peru,<br />Number of Endangered Languages: 93,<br />Proximity to Urban Center Score: 0.44,<br />Literacy Rate: 0.94,<br />Urbanization Rate: 33.36,<br />Prop. Vulnerable: 0.19,<br />Prop. Definitely Endangered: 0.32,<br />Prop. Severely Endangered: 0.26,<br />Prop. Critically Endangered: 0.17,<br />Prop. Extinct: 0.05","Country: philippines,<br />Number of Endangered Languages: 15,<br />Proximity to Urban Center Score: 0.28,<br />Literacy Rate: 0.96,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.13,<br />Prop. Definitely Endangered: 0.2,<br />Prop. Severely Endangered: 0.2,<br />Prop. Critically Endangered: 0.27,<br />Prop. Extinct: 0.2","Country: palau,<br />Number of Endangered Languages: 2,<br />Proximity to Urban Center Score: 0.29,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0.5,<br />Prop. Critically Endangered: 0.5,<br />Prop. Extinct: 0","Country: papua new guinea,<br />Number of Endangered Languages: 99,<br />Proximity to Urban Center Score: 0.53,<br />Literacy Rate: 0.64,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.23,<br />Prop. Definitely Endangered: 0.15,<br />Prop. Severely Endangered: 0.3,<br />Prop. Critically Endangered: 0.21,<br />Prop. Extinct: 0.1","Country: poland,<br />Number of Endangered Languages: 24,<br />Proximity to Urban Center Score: 0.23,<br />Literacy Rate: 1,<br />Urbanization Rate: 5.5,<br />Prop. Vulnerable: 0.54,<br />Prop. Definitely Endangered: 0.33,<br />Prop. Severely Endangered: 0.08,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0.04","Country: portugal,<br />Number of Endangered Languages: 3,<br />Proximity to Urban Center Score: 0.31,<br />Literacy Rate: 0.96,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: paraguay,<br />Number of Endangered Languages: 12,<br />Proximity to Urban Center Score: 0.34,<br />Literacy Rate: 0.94,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.08,<br />Prop. Definitely Endangered: 0.42,<br />Prop. Severely Endangered: 0.33,<br />Prop. Critically Endangered: 0.17,<br />Prop. Extinct: 0","Country: palestinian territories,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.05,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 1,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: french polynesia,<br />Number of Endangered Languages: 4,<br />Proximity to Urban Center Score: 0.98,<br />Literacy Rate: NaN,<br />Urbanization Rate: -6.63,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.5,<br />Prop. Severely Endangered: 0.5,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: romania,<br />Number of Endangered Languages: 21,<br />Proximity to Urban Center Score: 0.2,<br />Literacy Rate: 0.99,<br />Urbanization Rate: 20.83,<br />Prop. Vulnerable: 0.19,<br />Prop. Definitely Endangered: 0.43,<br />Prop. Severely Endangered: 0.38,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: russia,<br />Number of Endangered Languages: 174,<br />Proximity to Urban Center Score: 0.62,<br />Literacy Rate: NaN,<br />Urbanization Rate: 11.21,<br />Prop. Vulnerable: 0.17,<br />Prop. Definitely Endangered: 0.33,<br />Prop. Severely Endangered: 0.21,<br />Prop. Critically Endangered: 0.14,<br />Prop. Extinct: 0.15","Country: sudan,<br />Number of Endangered Languages: 65,<br />Proximity to Urban Center Score: 0.56,<br />Literacy Rate: NaN,<br />Urbanization Rate: 18.3,<br />Prop. Vulnerable: 0.09,<br />Prop. Definitely Endangered: 0.25,<br />Prop. Severely Endangered: 0.35,<br />Prop. Critically Endangered: 0.22,<br />Prop. Extinct: 0.09","Country: senegal,<br />Number of Endangered Languages: 15,<br />Proximity to Urban Center Score: 0.1,<br />Literacy Rate: 0.58,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.67,<br />Prop. Definitely Endangered: 0.07,<br />Prop. Severely Endangered: 0.13,<br />Prop. Critically Endangered: 0.13,<br />Prop. Extinct: 0","Country: solomon islands,<br />Number of Endangered Languages: 18,<br />Proximity to Urban Center Score: 0.3,<br />Literacy Rate: 0.84,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.22,<br />Prop. Definitely Endangered: 0.17,<br />Prop. Severely Endangered: 0.17,<br />Prop. Critically Endangered: 0.22,<br />Prop. Extinct: 0.22","Country: sierra leone,<br />Number of Endangered Languages: 5,<br />Proximity to Urban Center Score: 0.16,<br />Literacy Rate: 0.48,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0.2,<br />Prop. Critically Endangered: 0.4,<br />Prop. Extinct: 0.4","Country: el salvador,<br />Number of Endangered Languages: 2,<br />Proximity to Urban Center Score: 0.05,<br />Literacy Rate: 0.9,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0.5,<br />Prop. Extinct: 0.5","Country: san marino,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.04,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: serbia,<br />Number of Endangered Languages: 14,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 0.98,<br />Urbanization Rate: 26.51,<br />Prop. Vulnerable: 0.21,<br />Prop. Definitely Endangered: 0.71,<br />Prop. Severely Endangered: 0.07,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: suriname,<br />Number of Endangered Languages: 10,<br />Proximity to Urban Center Score: 0.39,<br />Literacy Rate: 0.96,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.2,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0.3,<br />Prop. Critically Endangered: 0.5,<br />Prop. Extinct: 0","Country: slovakia,<br />Number of Endangered Languages: 13,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 1,<br />Urbanization Rate: 26.51,<br />Prop. Vulnerable: 0.15,<br />Prop. Definitely Endangered: 0.85,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: slovenia,<br />Number of Endangered Languages: 9,<br />Proximity to Urban Center Score: 0.22,<br />Literacy Rate: 1,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.11,<br />Prop. Definitely Endangered: 0.78,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0.11,<br />Prop. Extinct: 0","Country: sweden,<br />Number of Endangered Languages: 9,<br />Proximity to Urban Center Score: 0.5,<br />Literacy Rate: 0.99,<br />Urbanization Rate: 14.66,<br />Prop. Vulnerable: 0.11,<br />Prop. Definitely Endangered: 0.44,<br />Prop. Severely Endangered: 0.22,<br />Prop. Critically Endangered: 0.22,<br />Prop. Extinct: 0","Country: syria,<br />Number of Endangered Languages: 8,<br />Proximity to Urban Center Score: 0.36,<br />Literacy Rate: 0.86,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.12,<br />Prop. Definitely Endangered: 0.5,<br />Prop. Severely Endangered: 0.25,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0.12","Country: chad,<br />Number of Endangered Languages: 29,<br />Proximity to Urban Center Score: 0.37,<br />Literacy Rate: 0.4,<br />Urbanization Rate: 25.88,<br />Prop. Vulnerable: 0.03,<br />Prop. Definitely Endangered: 0.24,<br />Prop. Severely Endangered: 0.38,<br />Prop. Critically Endangered: 0.28,<br />Prop. Extinct: 0.07","Country: togo,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.28,<br />Literacy Rate: 0.66,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 1","Country: thailand,<br />Number of Endangered Languages: 26,<br />Proximity to Urban Center Score: 0.28,<br />Literacy Rate: 0.97,<br />Urbanization Rate: 34.86,<br />Prop. Vulnerable: 0.08,<br />Prop. Definitely Endangered: 0.58,<br />Prop. Severely Endangered: 0.15,<br />Prop. Critically Endangered: 0.15,<br />Prop. Extinct: 0.04","Country: tajikistan,<br />Number of Endangered Languages: 12,<br />Proximity to Urban Center Score: 0.26,<br />Literacy Rate: 1,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.08,<br />Prop. Definitely Endangered: 0.42,<br />Prop. Severely Endangered: 0.5,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: tokelau,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.07,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 1,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: turkmenistan,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.31,<br />Literacy Rate: 1,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: timor-leste,<br />Number of Endangered Languages: 6,<br />Proximity to Urban Center Score: 0.08,<br />Literacy Rate: NaN,<br />Urbanization Rate: 15.21,<br />Prop. Vulnerable: 0.67,<br />Prop. Definitely Endangered: 0.17,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0.17,<br />Prop. Extinct: 0","Country: tunisia,<br />Number of Endangered Languages: 3,<br />Proximity to Urban Center Score: 0.15,<br />Literacy Rate: 0.82,<br />Urbanization Rate: 10.6,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0.33,<br />Prop. Critically Endangered: 0.33,<br />Prop. Extinct: 0.33","Country: turkey,<br />Number of Endangered Languages: 26,<br />Proximity to Urban Center Score: 0.3,<br />Literacy Rate: 0.95,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.15,<br />Prop. Definitely Endangered: 0.54,<br />Prop. Severely Endangered: 0.15,<br />Prop. Critically Endangered: 0.04,<br />Prop. Extinct: 0.12","Country: tuvalu,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: tanzania,<br />Number of Endangered Languages: 13,<br />Proximity to Urban Center Score: 0.26,<br />Literacy Rate: 0.71,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.38,<br />Prop. Definitely Endangered: 0.15,<br />Prop. Severely Endangered: 0.15,<br />Prop. Critically Endangered: 0.15,<br />Prop. Extinct: 0.15","Country: uganda,<br />Number of Endangered Languages: 6,<br />Proximity to Urban Center Score: 0.27,<br />Literacy Rate: 0.78,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.17,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0.17,<br />Prop. Critically Endangered: 0.17,<br />Prop. Extinct: 0.5","Country: ukraine,<br />Number of Endangered Languages: 25,<br />Proximity to Urban Center Score: 0.25,<br />Literacy Rate: 1,<br />Urbanization Rate: 5.5,<br />Prop. Vulnerable: 0.16,<br />Prop. Definitely Endangered: 0.52,<br />Prop. Severely Endangered: 0.2,<br />Prop. Critically Endangered: 0.04,<br />Prop. Extinct: 0.08","Country: uruguay,<br />Number of Endangered Languages: 1,<br />Proximity to Urban Center Score: 0.48,<br />Literacy Rate: 0.98,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 1,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: united states,<br />Number of Endangered Languages: 228,<br />Proximity to Urban Center Score: 2.59,<br />Literacy Rate: 0.86,<br />Urbanization Rate: 24.78,<br />Prop. Vulnerable: 0.06,<br />Prop. Definitely Endangered: 0.13,<br />Prop. Severely Endangered: 0.2,<br />Prop. Critically Endangered: 0.37,<br />Prop. Extinct: 0.24","Country: uzbekistan,<br />Number of Endangered Languages: 4,<br />Proximity to Urban Center Score: 0.25,<br />Literacy Rate: 1,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.75,<br />Prop. Severely Endangered: 0.25,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: venezuela,<br />Number of Endangered Languages: 41,<br />Proximity to Urban Center Score: 0.55,<br />Literacy Rate: 0.96,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.34,<br />Prop. Definitely Endangered: 0.24,<br />Prop. Severely Endangered: 0.2,<br />Prop. Critically Endangered: 0.22,<br />Prop. Extinct: 0","Country: vietnam,<br />Number of Endangered Languages: 39,<br />Proximity to Urban Center Score: 0.24,<br />Literacy Rate: 0.94,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0.13,<br />Prop. Definitely Endangered: 0.69,<br />Prop. Severely Endangered: 0.1,<br />Prop. Critically Endangered: 0.08,<br />Prop. Extinct: 0","Country: vanuatu,<br />Number of Endangered Languages: 47,<br />Proximity to Urban Center Score: 0.25,<br />Literacy Rate: NaN,<br />Urbanization Rate: 16.22,<br />Prop. Vulnerable: 0.19,<br />Prop. Definitely Endangered: 0.21,<br />Prop. Severely Endangered: 0.06,<br />Prop. Critically Endangered: 0.47,<br />Prop. Extinct: 0.06","Country: yemen,<br />Number of Endangered Languages: 4,<br />Proximity to Urban Center Score: 0.89,<br />Literacy Rate: 0.7,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0.5,<br />Prop. Severely Endangered: 0.5,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0","Country: south africa,<br />Number of Endangered Languages: 10,<br />Proximity to Urban Center Score: 0.3,<br />Literacy Rate: 0.94,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 0,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0.3,<br />Prop. Extinct: 0.7","Country: NA,<br />Number of Endangered Languages: 6,<br />Proximity to Urban Center Score: 0.44,<br />Literacy Rate: NaN,<br />Urbanization Rate: NaN,<br />Prop. Vulnerable: 0,<br />Prop. Definitely Endangered: 1,<br />Prop. Severely Endangered: 0,<br />Prop. Critically Endangered: 0,<br />Prop. Extinct: 0"],"z":[2,2,5,2,2,3,2,3,1.5,4,2,1,2,2,1.5,2.5,1,2,1,2,3,3,2,3.5,2,4,4,2.5,2,2,2.5,3,2,1,5,1,3,2,3,4,4,2,2,2,2,1,2,1,3,2.5,2,2,1,3,4,2,2,2,1,3,1,2.5,3.5,2,2,2,2,3.5,2,2,3,2,2,2,2,4,2,3,4,2,2.5,3,1,2,2,2,2,2,3.5,2,2,2,2,2,3,2,2,3,3,2,2,2,2,4,3,2,1,3,2,3,1,3,2,1,1,2,3,3.5,3,1,2,2.5,3,2.5,2,2.5,3,1,3,4,4.5,2,2,3.5,2,2,2,2,3,5,2,2.5,3,2,1,4,2,2,2,4.5,2,3,4,2,2,2,4,2.5,5,3.5],"type":"choropleth","geo":"geo","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<p>The purpose of this project is to explore some of the global factors affecting language endangerment in an attempt to find ways to help save them. Some social and economic factors affecting global language endangerment are explored. A Bayesian linear model was subsequently built to verify the significance of these factors, and predict the degree of language endangerment.</p>
+<p>Table 1 below is the official UNESCO Language Endangerment Classification System.</p>
+<div class="cell page-columns page-full">
+<div class="cell-output-display column-body-outset">
+
+<div id="zbbvwhiaxd" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#zbbvwhiaxd table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#zbbvwhiaxd thead, #zbbvwhiaxd tbody, #zbbvwhiaxd tfoot, #zbbvwhiaxd tr, #zbbvwhiaxd td, #zbbvwhiaxd th {
+  border-style: none;
+}
+
+#zbbvwhiaxd p {
+  margin: 0;
+  padding: 0;
+}
+
+#zbbvwhiaxd .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#zbbvwhiaxd .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#zbbvwhiaxd .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#zbbvwhiaxd .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#zbbvwhiaxd .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#zbbvwhiaxd .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#zbbvwhiaxd .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#zbbvwhiaxd .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#zbbvwhiaxd .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#zbbvwhiaxd .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#zbbvwhiaxd .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#zbbvwhiaxd .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#zbbvwhiaxd .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#zbbvwhiaxd .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#zbbvwhiaxd .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#zbbvwhiaxd .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#zbbvwhiaxd .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#zbbvwhiaxd .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#zbbvwhiaxd .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#zbbvwhiaxd .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#zbbvwhiaxd .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#zbbvwhiaxd .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#zbbvwhiaxd .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#zbbvwhiaxd .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#zbbvwhiaxd .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#zbbvwhiaxd .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#zbbvwhiaxd .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#zbbvwhiaxd .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#zbbvwhiaxd .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#zbbvwhiaxd .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#zbbvwhiaxd .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#zbbvwhiaxd .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#zbbvwhiaxd .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#zbbvwhiaxd .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#zbbvwhiaxd .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#zbbvwhiaxd .gt_left {
+  text-align: left;
+}
+
+#zbbvwhiaxd .gt_center {
+  text-align: center;
+}
+
+#zbbvwhiaxd .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#zbbvwhiaxd .gt_font_normal {
+  font-weight: normal;
+}
+
+#zbbvwhiaxd .gt_font_bold {
+  font-weight: bold;
+}
+
+#zbbvwhiaxd .gt_font_italic {
+  font-style: italic;
+}
+
+#zbbvwhiaxd .gt_super {
+  font-size: 65%;
+}
+
+#zbbvwhiaxd .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#zbbvwhiaxd .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#zbbvwhiaxd .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#zbbvwhiaxd .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#zbbvwhiaxd .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#zbbvwhiaxd .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#zbbvwhiaxd .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+<table class="gt_table" style="table-layout: fixed;; width: 0px" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+  <colgroup>
+    <col style="width:150px;">
+    <col style="width:550px;">
+  </colgroup>
+  <thead>
+    
+    <tr class="gt_col_headings">
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" style="font-weight: bold;" scope="col" id="Classification<span class=&quot;gt_footnote_marks&quot; style=&quot;white-space:nowrap;font-style:italic;font-weight:normal;&quot;><sup>1</sup></span>">Classification<span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;"><sup>1</sup></span></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" style="font-weight: bold;" scope="col" id="Explanation">Explanation</th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td headers="Classification" class="gt_row gt_left">1: Vulnerable</td>
+<td headers="Explanation" class="gt_row gt_left">The language is commonly spoken by children, but its usage might be limited to specific areas or contexts. (ex: home, etc)</td></tr>
+    <tr><td headers="Classification" class="gt_row gt_left" style="background-color: #E5E1DC;">2: Definitely Endangered</td>
+<td headers="Explanation" class="gt_row gt_left" style="background-color: #E5E1DC;">Children no longer acquire the language as their first language within their family environment.</td></tr>
+    <tr><td headers="Classification" class="gt_row gt_left">3: Severely Endangered</td>
+<td headers="Explanation" class="gt_row gt_left">The language is spoken by grandparents and older generations, and although parents may comprehend it, they do not actively use it when communicating with their children or among themselves.</td></tr>
+    <tr><td headers="Classification" class="gt_row gt_left" style="background-color: #E5E1DC;">4: Critically Endangered</td>
+<td headers="Explanation" class="gt_row gt_left" style="background-color: #E5E1DC;">The language is spoken partially and infrequently by the youngest speakers, who are typically grandparents or older individuals.</td></tr>
+    <tr><td headers="Classification" class="gt_row gt_left">5: Extinct</td>
+<td headers="Explanation" class="gt_row gt_left">There are no remaining individuals who can speak the language.</td></tr>
+  </tbody>
+  
+  <tfoot class="gt_footnotes">
+    <tr>
+      <td class="gt_footnote" colspan="2"><span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;"><sup>1</sup></span> Table 1: UNESCO Classification of Degrees of Language Endangerment</td>
+    </tr>
+  </tfoot>
+</table>
+</div>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

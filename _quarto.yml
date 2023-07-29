@@ -9,21 +9,21 @@ website:
     background: secondary
     left:
       - about.qmd
-      - sidebar:Endangered-Languages-Around-the-World
+      - sidebar:Endangered-Languages
       - icon: github
         href: https://github.com/kwakuemma1 
         
   sidebar:
-    - id: Endangered-Languages-Around-the-World
+    - id: Endangered-Languages
       title: "Endangered Languages"
       # style: "docked"
       # collapse-level: 6
       contents: 
-        - Endangered-Languages-Around-the-World/index.qmd
-        - Endangered-Languages-Around-the-World/eda.qmd
-        - Endangered-Languages-Around-the-World/models.qmd
-        - Endangered-Languages-Around-the-World/sources.qmd
-        - Endangered-Languages-Around-the-World/about.qmd
+        - Endangered-Languages/index.qmd
+        - Endangered-Languages/eda.qmd
+        - Endangered-Languages/models.qmd
+        - Endangered-Languages/sources.qmd
+        - Endangered-Languages/about.qmd
         
         
     - title: "Empty space"

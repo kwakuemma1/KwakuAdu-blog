@@ -1,0 +1,151 @@
+---
+title: ""
+format: html
+execute: 
+  echo: false
+---
+
+
+## What are endangered languages and how can we help save them?
+
+```{r}
+#| label: globe data
+#| message: false
+#| warning: false
+# Packages
+# Data Manipulation
+library(tidyverse) # For data manipulation
+library(janitor)   # For clean column names, and other utilities
+library(glue)      # String manipulation
+library(gt)        # For fancy tables
+
+# Interactive Maps
+library(htmltools)
+library(plotly)    # For interactive plots
+library(leaflet)   # For interactive maps
+
+# Map packages
+library(sf)        # For map shape files
+library(tigris)   
+library(rnaturalearth)
+library(ggspatial)
+
+# Plotting packages
+library(scales)
+library(patchwork) 
+library(RColorBrewer)
+require(plotly)
+
+# source('data_01_clean_languages_final.R')
+# Below are the output if you run the line above
+combined_data <- readRDS("combined_data.Rds")
+country_doe_orig <- readRDS("country_doe_orig.Rds")
+country_doe <- readRDS("country_doe.Rds")
+covariates <- readRDS("covariates.Rds")
+getMapGepProp <- readRDS("getMapGepProp.Rds")
+```
+
+According to the [World Economic Forum](https://www.weforum.org/agenda/2019/05/five-ways-indigenous-languages-can-be-championed-for-learners), there are approximately 7,000 recognized languages worldwide, however people communicate mainly in only 20 languages. [A recent research publication](https://www.nature.com/articles/s41559-021-01604-y), found that 1,500 of the world’s endangered languages are at risk of disappearing by the end of the century. 
+
+
+**Almost a staggering half of all the vulnerable languages in the US are extinct!**
+
+
+```{r}
+#| label: globe plot
+#| message: false
+#| warning: false
+
+
+country_doe_orig2 <- country_doe_orig |>
+  mutate(country_name = tolower(country_name)) |>
+  left_join(
+  combined_data |>
+    group_by(countries) |>
+    summarise(
+      urban_proximity_median = round(median(proximity_to_capital_city, na.rm=T), 2),
+      literacy_rate = round(mean(literacy, na.rm=T), 2),
+      urbanization_rate = round(mean(urban_pop_pc_change_1960_2017, na.rm=T), 2),
+      vul_rate = round(mean(degree_of_endangerment_factor == "vulnerable", na.rm=T), 2),
+      def_rate = round(mean(degree_of_endangerment_factor == "definitely endangered", na.rm=T), 2),
+      sev_rate = round(mean(degree_of_endangerment_factor == "severely endangered", na.rm=T), 2),
+      crit_rate = round(mean(degree_of_endangerment_factor == "critically endangered", na.rm=T), 2),
+      ext_rate = round(mean(degree_of_endangerment_factor == "extinct", na.rm=T), 2)
+    ),
+  by = c("country_name" = "countries")
+    
+) |>
+  mutate(
+    the_label = glue(
+      "Country: {country_name},
+      Number of Endangered Languages: {language_count},
+      Proximity to Urban Center Score: {urban_proximity_median},
+      Literacy Rate: {literacy_rate},
+      Urbanization Rate: {urbanization_rate},
+      Prop. Vulnerable: {vul_rate},
+      Prop. Definitely Endangered: {def_rate},
+      Prop. Severely Endangered: {sev_rate},
+      Prop. Critically Endangered: {crit_rate},
+      Prop. Extinct: {ext_rate}"
+    )
+  )
+
+
+# colors <- colorRamp(c("red","yellow", "green"))(seq(0, 1, length.out = 10))
+plot_geo(locations=country_doe_orig2$country_codes,
+         marker = list(colorbar = list(title = 'Country Median DoE')),
+         colorscale= "RdOrYl", #"YlOrRd",
+         text=country_doe_orig2$the_label,
+         z=country_doe_orig2$degree_of_endangerment_median) |>
+  layout(
+    showlegend = T, geo = getMapGepProp(),
+    title = 'Median Degree of Endangerment by Country'
+  )
+```
+
+
+
+The purpose of this project is to explore some of the global factors affecting language endangerment in an attempt to find ways to help save them. Some social and economic factors affecting global language endangerment are explored. A Bayesian linear model was subsequently built to verify the significance of these factors, and predict the degree of language endangerment.
+
+Table 1 below is the official UNESCO Language Endangerment Classification System.
+
+
+```{r}
+#| label: classification table
+#| message: false
+#| warning: false
+#| column: body-outset
+# Packages
+
+tribble(
+  ~Classification, ~Explanation,
+  "1: Vulnerable", "The language is commonly spoken by children, but its usage might be limited to specific areas or contexts. (ex: home, etc)",
+  "2: Definitely Endangered", "Children no longer acquire the language as their first language within their family environment.",             
+  "3: Severely Endangered", "The language is spoken by grandparents and older generations, and although parents may comprehend it, they do not actively use it when communicating with their children or among themselves.",      
+  "4: Critically Endangered", "The language is spoken partially and infrequently by the youngest speakers, who are typically grandparents or older individuals.",           
+  "5: Extinct", "There are no remaining individuals who can speak the language."
+) |>
+  gt() |>
+  cols_width(
+    Classification ~ px(150),
+    Explanation ~ px(550)
+  ) |>
+  tab_style(
+    style = list(
+      cell_fill(color = "#E5E1DC")
+      ),
+    locations = cells_body(
+      rows = Classification %in% c("2: Definitely Endangered", "4: Critically Endangered")
+    )
+  ) |>
+  tab_style(
+    style = cell_text(weight = "bold"),
+    locations = cells_column_labels()
+  ) |>
+  tab_footnote(
+    footnote = "Table 1: UNESCO Classification of Degrees of Language Endangerment",
+    locations = cells_column_labels(columns = Classification)
+  )
+```
+
+
