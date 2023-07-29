@@ -10,21 +10,8 @@ instructor:
 
 
 course:
-  number: "PMAP 8101"
-  semester: "Summer 2023"
   days: "Any day"
   time: "Asynchronous"
   location: "Anywhere"
   dates: "June 5–July 30, 2023"
-  github: "https://www.github.com/andrewheiss/datavizs23.classes.andrewheiss.com"
-  url: "https://datavizs23.classes.andrewheiss.com"
   copyright_year: "2023"
-  slack: "https://gsudatavizs2023.slack.com"
-
-university:
-  name: Georgia State University
-  url: "https://www.gsu.edu"
-
-school:
-  name: Andrew Young School of Policy Studies
-  url: "https://aysps.gsu.edu/"
