@@ -7,7 +7,6 @@ website:
   title: "Kwaku-Adu's Blog"
   navbar:
     pinned: true
-    background: "#E16462"
 
     # background: secondary
     left:
@@ -52,11 +51,15 @@ website:
 
 format:
   html:
-    theme:
-      - solar
+    theme: 
       - html/custom.scss
-    toc: true
-    highlight-style: espresso
+    toc: false
+    code-link: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true
+    highlight-style: monokai
 
 
 
