@@ -1,17 +1,3 @@
 author: Emmanuel K. A. Yeboah
-
-instructor:
-  name: Emmanuel K. A. Yeboah
-  name_no_title: Emmanuel K. A. Yeboah
-  email: kwakuemma1@gmail.com
-  url: "https://kwakuemma1.github.io/KwakuAduBlog/"
-  twitter: kwakuemma1
-  github: kwakuemma1
-
-
-course:
-  days: "Any day"
-  time: "Asynchronous"
-  location: "Anywhere"
-  dates: "June 5–July 30, 2023"
-  copyright_year: "2023"
+years: "2023–2023"
+github-url: "https://github.com/kwakuemma1/KwakuAduBlog/"
