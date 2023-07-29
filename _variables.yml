@@ -1,0 +1,30 @@
+author: Emmanuel K. A. Yeboah
+
+instructor:
+  name: Emmanuel K. A. Yeboah
+  name_no_title: Emmanuel K. A. Yeboah
+  email: kwakuemma1@gmail.com
+  url: "https://kwakuemma1.github.io/KwakuAduBlog/"
+  twitter: kwakuemma1
+  github: kwakuemma1
+
+
+course:
+  number: "PMAP 8101"
+  semester: "Summer 2023"
+  days: "Any day"
+  time: "Asynchronous"
+  location: "Anywhere"
+  dates: "June 5–July 30, 2023"
+  github: "https://www.github.com/andrewheiss/datavizs23.classes.andrewheiss.com"
+  url: "https://datavizs23.classes.andrewheiss.com"
+  copyright_year: "2023"
+  slack: "https://gsudatavizs2023.slack.com"
+
+university:
+  name: Georgia State University
+  url: "https://www.gsu.edu"
+
+school:
+  name: Andrew Young School of Policy Studies
+  url: "https://aysps.gsu.edu/"

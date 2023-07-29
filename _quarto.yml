@@ -8,6 +8,7 @@ website:
   navbar:
     pinned: true
     background: "#E16462"
+
     # background: secondary
     left:
       - about.qmd
@@ -31,15 +32,33 @@ website:
         
         
     - title: "Empty space"
+
+  page-footer:
+    left: |
+      Content {{< fa brands creative-commons >}} {{< var course.copyright_year >}} by [{{< var instructor.name_no_title >}}]({{< var instructor.url >}}) <br>
+      All content licensed under a {{< fa brands creative-commons >}}
+      {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-nc >}}
+      [Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)
+    right: |
+      Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)<br>
+      [View the source at {{< fa brands github >}} GitHub]({{< var course.github >}})
+      
         
-        
+# format:
+#   html:
+#     theme: solar
+#     css: styles.css
+#     highlight-style: espresso
+#     toc: true
+#     title-block-banner-color: "#01BAEF"
+
 format:
   html:
-    theme: solar
-    css: styles.css
-    highlight-style: espresso
+    theme:
+      - litera
+      - html/custom.scss
     toc: true
-    title-block-banner-color: "#01BAEF"
+    highlight-style: monokai
 
 
 
