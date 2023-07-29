@@ -6,7 +6,9 @@ project:
 website:
   title: "Kwaku-Adu's Blog"
   navbar:
-    background: secondary
+    pinned: true
+    background: "#E16462"
+    # background: secondary
     left:
       - about.qmd
       - sidebar:Endangered-Languages
@@ -16,7 +18,7 @@ website:
   sidebar:
     - id: Endangered-Languages
       title: "Endangered Languages"
-      # style: "docked"
+      style: "docked"
       # collapse-level: 6
       contents: 
         - Endangered-Languages/index.qmd
