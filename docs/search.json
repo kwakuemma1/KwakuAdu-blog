@@ -28,11 +28,130 @@
     "text": "My First Robotics Competition\n\n\n\n\n\n\n\nevents\n\n\n\n\n\n\n\n\n\n\n\nJul 20, 2023\n\n\nEmmanuel Yeboah\n\n\n\n\n\n\n  \n\n\n\n\nSummer 2023 Data Science Experience\n\n\n\n\n\n\n\nevents\n\n\n\n\n\n\n\n\n\n\n\nJul 20, 2023\n\n\nEmmnauel Yeboah\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "Endangered-Languages-Around-the-World/models.html",
+    "href": "Endangered-Languages-Around-the-World/models.html",
+    "title": "Kwaku-Adu's Blog",
+    "section": "",
+    "text": "To quantify and ascertain whether social and economic factors affect the degree of language endangerment, two Bayesian linear models were built:\n\nModel A: Predict the numeric degree of language endangerment. The categories of language endangerment are converted to numbers, and a Bayesian Gaussian linear regression model is used to predict the numeric target:\n\n\n- Vulnerable: 1\n- definitely endangered: 2\n- severely endangered: 3\n- critically endangered: 4\n- extinct: 5\n\n\nModel B: Predict the probability of language endangerment. With Model B, the plan is to predict the probability of an endangered language evolving up from one classification all the way to finally becoming extinct. A Bayesian ordinal logistic regression model is built to understand the orderly nature of moving across the degrees (or severity) of language endangerment.\n\n\n\n\n\n\n\nThe social and economic factors explored are:\n\nliteracy: Literacy Rate of the Country\ninfant_mortality: Infant Mortality Rate of the Country\nagriculture: Percentage of GDP that is made up of Agriculture\nproximity_to_capital_city: How close is the region in which the language is spoken to the capital city?\nminority_ed_policy: Does the country have any policies to foster education in minority languages?\nurban_pop_pc_change_1960_2017: Urban population change between 1960 to 1970"
+  },
+  {
+    "objectID": "Endangered-Languages-Around-the-World/models.html#introduction",
+    "href": "Endangered-Languages-Around-the-World/models.html#introduction",
+    "title": "Kwaku-Adu's Blog",
+    "section": "",
+    "text": "To quantify and ascertain whether social and economic factors affect the degree of language endangerment, two Bayesian linear models were built:\n\nModel A: Predict the numeric degree of language endangerment. The categories of language endangerment are converted to numbers, and a Bayesian Gaussian linear regression model is used to predict the numeric target:\n\n\n- Vulnerable: 1\n- definitely endangered: 2\n- severely endangered: 3\n- critically endangered: 4\n- extinct: 5\n\n\nModel B: Predict the probability of language endangerment. With Model B, the plan is to predict the probability of an endangered language evolving up from one classification all the way to finally becoming extinct. A Bayesian ordinal logistic regression model is built to understand the orderly nature of moving across the degrees (or severity) of language endangerment.\n\n\n\n\n\n\n\nThe social and economic factors explored are:\n\nliteracy: Literacy Rate of the Country\ninfant_mortality: Infant Mortality Rate of the Country\nagriculture: Percentage of GDP that is made up of Agriculture\nproximity_to_capital_city: How close is the region in which the language is spoken to the capital city?\nminority_ed_policy: Does the country have any policies to foster education in minority languages?\nurban_pop_pc_change_1960_2017: Urban population change between 1960 to 1970"
+  },
+  {
+    "objectID": "Endangered-Languages-Around-the-World/models.html#model-a-predict-numeric-degree-of-endangerment",
+    "href": "Endangered-Languages-Around-the-World/models.html#model-a-predict-numeric-degree-of-endangerment",
+    "title": "Kwaku-Adu's Blog",
+    "section": "Model A: Predict Numeric Degree of Endangerment",
+    "text": "Model A: Predict Numeric Degree of Endangerment\n\\[\n\\begin{aligned}\n\\operatorname{degree\\_of\\_endangerment\\_numeric} &= \\alpha + \\beta_{1}(\\operatorname{literacy})\\\\\n&\\quad + \\beta_{2}(\\operatorname{infant\\_mortality}) + \\beta_{3}(\\operatorname{agriculture})\\\\\n&\\quad + \\beta_{4}(\\operatorname{proximity\\_to\\_capital\\_city}) + \\beta_{5}(\\operatorname{minority\\_ed\\_policy})\\\\\n&\\quad + \\beta_{6}(\\operatorname{urban\\_pop\\_pc\\_change\\_1960\\_2017}) + \\epsilon\n\\end{aligned}\n\\]\n\nAssessing Model\n\n\n\n\n\n\n  \n    \n    \n      Term\n      Median\n      Lower Limit\n      Upper Limit\n      Is Significant?\n    \n  \n  \n    (Intercept)\n0.594\n−0.970\n2.145\nNo\n    literacy\n0.677\n−0.686\n2.076\nNo\n    infant_mortality\n0.025\n0.000\n0.050\nNo\n    agriculture\n−2.300\n−7.844\n3.066\nNo\n    proximity_to_capital_city\n0.388\n0.076\n0.702\nYes\n    minority_ed_policy\n0.441\n−0.076\n0.952\nNo\n    urban_pop_pc_change_1960_2017\n0.023\n0.002\n0.044\nYes\n  \n  \n  \n\n\n\n\n\\[\n\\begin{aligned}\n\\operatorname{\\widehat{degree\\_of\\_endangerment\\_numeric}} &= 0.595 + 0.678(\\operatorname{literacy})\\\\\n&\\quad + 0.025(\\operatorname{infant\\_mortality}) - 2.300(\\operatorname{agriculture})\\\\\n&\\quad + 0.388(\\operatorname{proximity\\_to\\_capital\\_city}) + 0.441(\\operatorname{minority\\_ed\\_policy})\\\\\n&\\quad + 0.023(\\operatorname{urban\\_pop\\_pc\\_change\\_1960\\_2017})\n\\end{aligned}\n\\]\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKey Discoveries\nUrbanization further endangers languages.\n\nWhen an endangered language is close to an urban center it’s more likely to go extinct\nAs migration to urban centers increase, languages become increasingly endangered\nOther social and economic factors do not seem to impact degree of endangerment when urbanization is considered"
+  },
+  {
+    "objectID": "Endangered-Languages-Around-the-World/models.html#model-b-predict-probability-of-degree-of-endangerment",
+    "href": "Endangered-Languages-Around-the-World/models.html#model-b-predict-probability-of-degree-of-endangerment",
+    "title": "Kwaku-Adu's Blog",
+    "section": "Model B: Predict Probability of Degree of Endangerment",
+    "text": "Model B: Predict Probability of Degree of Endangerment\n\\[\n\\begin{aligned}\n\\operatorname{\\phi} &= \\beta_{1}(\\operatorname{literacy})\\\\\n&\\quad + \\beta_{2}(\\operatorname{infant\\_mortality}) + \\beta_{3}(\\operatorname{agriculture})\\\\\n&\\quad + \\beta_{4}(\\operatorname{proximity\\_to\\_capital\\_city}) + \\beta_{5}(\\operatorname{minority\\_ed\\_policy})\\\\\n&\\quad + \\beta_{6}(\\operatorname{urban\\_pop\\_pc\\_change\\_1960\\_2017})\n\\end{aligned}\n\\]\n\\[\n\\begin{aligned}\n\\log\\left[ \\frac { P( \\operatorname{vulnerable} \\geq \\operatorname{definitely\\ endangered} ) }{ 1 - P( \\operatorname{vulnerable} \\geq \\operatorname{definitely\\ endangered} ) } \\right] &= \\alpha_{1} - \\phi + \\epsilon \\\\\n\\log\\left[ \\frac { P( \\operatorname{definitely\\ endangered} \\geq \\operatorname{severely\\ endangered} ) }{ 1 - P( \\operatorname{definitely\\ endangered} \\geq \\operatorname{severely\\ endangered} ) } \\right] &= \\alpha_{2} - \\phi + \\epsilon \\\\\n\\log\\left[ \\frac { P( \\operatorname{severely\\ endangered} \\geq \\operatorname{critically\\ endangered} ) }{ 1 - P( \\operatorname{severely\\ endangered} \\geq \\operatorname{critically\\ endangered} ) } \\right] &= \\alpha_{3} - \\phi  + \\epsilon \\\\\n\\log\\left[ \\frac { P( \\operatorname{critically\\ endangered} \\geq \\operatorname{extinct} ) }{ 1 - P( \\operatorname{critically\\ endangered} \\geq \\operatorname{extinct} ) } \\right] &= \\alpha_{4} - \\phi + \\epsilon\n\\end{aligned}\n\\]\n\nAssessing Model\n\n\n\n\n\n\n  \n    \n    \n      Term\n      Median\n      Lower Limit\n      Upper Limit\n      Is Significant?\n    \n  \n  \n    literacy\n0.816\n−1.149\n2.775\nNo\n    infant_mortality\n0.031\n−0.004\n0.070\nNo\n    agriculture\n−3.189\n−11.713\n4.913\nNo\n    proximity_to_capital_city\n0.433\n−0.016\n0.904\nNo\n    minority_ed_policy\n0.683\n−0.050\n1.442\nNo\n    urban_pop_pc_change_1960_2017\n0.031\n0.002\n0.066\nYes\n    vulnerable|definitely endangered\n1.009\n−1.246\n3.281\nNo\n    definitely endangered|severely endangered\n2.551\n0.263\n4.888\nYes\n    severely endangered|critically endangered\n4.037\n1.613\n6.525\nYes\n    critically endangered|extinct\n6.109\n3.410\n9.086\nYes\n  \n  \n  \n\n\n\n\n\\[\n\\begin{aligned}\n\\operatorname{\\hat{\\phi}} &=0.816(\\operatorname{literacy})\\\\\n&\\quad + 0.031(\\operatorname{infant\\_mortality}) - 3.189(\\operatorname{agriculture})\\\\\n&\\quad + 0.433(\\operatorname{proximity\\_to\\_capital\\_city}) + 0.683(\\operatorname{minority\\_ed\\_policy})\\\\\n&\\quad + 0.031(\\operatorname{urban\\_pop\\_pc\\_change\\_1960\\_2017})\n\\end{aligned}\n\\]\n\\[\n\\begin{aligned}\n\\log\\left[ \\frac { P( \\operatorname{vulnerable} \\geq \\operatorname{definitely\\ endangered} ) }{ 1 - P( \\operatorname{vulnerable} \\geq \\operatorname{definitely\\ endangered} ) } \\right] &= 1.009 - \\hat{\\phi}\\\\\n\\log\\left[ \\frac { P( \\operatorname{definitely\\ endangered} \\geq \\operatorname{severely\\ endangered} ) }{ 1 - P( \\operatorname{definitely\\ endangered} \\geq \\operatorname{severely\\ endangered} ) } \\right] &= 2.551 - \\hat{\\phi} \\\\\n\\log\\left[ \\frac { P( \\operatorname{severely\\ endangered} \\geq \\operatorname{critically\\ endangered} ) }{ 1 - P( \\operatorname{severely\\ endangered} \\geq \\operatorname{critically\\ endangered} ) } \\right] &= 4.037 - \\hat{\\phi} \\\\\n\\log\\left[ \\frac { P( \\operatorname{critically\\ endangered} \\geq \\operatorname{extinct} ) }{ 1 - P( \\operatorname{critically\\ endangered} \\geq \\operatorname{extinct} ) } \\right] &= 6.109 - \\hat{\\phi}\n\\end{aligned}\n\\]\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKey Discoveries\nUrbanization increases the odds of language endangerment.\n\nWhen an endangered language is close to an urban center it’s more likely to go extinct\nAs migration to urban centers increase, languages become increasingly endangered\nOther social and economic factors do not seem to impact degree of endangerment when urbanization is considered\n\nThe following movements in the severity of language endangerment are also very significant:\n\nA language that is classified as definitely endangered is at a significant risk of becoming severely endangered\nA language that is classified as severely endangered is at a significant risk of becoming critically endangered\nA language that is classified as critically endangered is at a high significant risk of becoming extinct"
+  },
+  {
+    "objectID": "Endangered-Languages-Around-the-World/models.html#conclusion",
+    "href": "Endangered-Languages-Around-the-World/models.html#conclusion",
+    "title": "Kwaku-Adu's Blog",
+    "section": "Conclusion",
+    "text": "Conclusion\nTo help preserve endangered languages, policy makers must introduce policies that make endangered regions more attractive to prevent migration of current speakers to urban regions.\nAlso improving literacy rate and agricultural economic opportunities in these regions could help preserve the local population, and in turn preserve the local language.\nLanguages that are already classified as definitely endangered are at significant risk of going extinct. Urgent attention should be given to such languages."
+  },
+  {
+    "objectID": "Endangered-Languages-Around-the-World/eda.html#proportion-of-the-degrees-of-endangerment",
+    "href": "Endangered-Languages-Around-the-World/eda.html#proportion-of-the-degrees-of-endangerment",
+    "title": "Kwaku-Adu's Blog",
+    "section": "Proportion of the Degrees of Endangerment",
+    "text": "Proportion of the Degrees of Endangerment"
+  },
+  {
+    "objectID": "Endangered-Languages-Around-the-World/eda.html#median-language-endangerment-by-country",
+    "href": "Endangered-Languages-Around-the-World/eda.html#median-language-endangerment-by-country",
+    "title": "Kwaku-Adu's Blog",
+    "section": "Median Language Endangerment By Country",
+    "text": "Median Language Endangerment By Country\nAlmost a staggering half of all the vulnerable languages in the US are extinct!"
+  },
+  {
+    "objectID": "Endangered-Languages-Around-the-World/eda.html#how-does-literacy-rate-affect-language-endangerment",
+    "href": "Endangered-Languages-Around-the-World/eda.html#how-does-literacy-rate-affect-language-endangerment",
+    "title": "Kwaku-Adu's Blog",
+    "section": "How does Literacy Rate Affect Language Endangerment",
+    "text": "How does Literacy Rate Affect Language Endangerment\n\n\nAllBy Minority Education Policy\n\n\n\n\n\n\n\nThe most literate countries seem to have a higher proportion of definitely endangered languages compared to the bottom 10% (or least literate countries)\n\n\n\n\n\n\n\nCountries with minority education policies have lower percent of extinct languages"
+  },
+  {
+    "objectID": "Endangered-Languages-Around-the-World/eda.html#how-does-infant-mortality-rate-affect-language-endangerment",
+    "href": "Endangered-Languages-Around-the-World/eda.html#how-does-infant-mortality-rate-affect-language-endangerment",
+    "title": "Kwaku-Adu's Blog",
+    "section": "How does Infant Mortality Rate Affect Language Endangerment",
+    "text": "How does Infant Mortality Rate Affect Language Endangerment\n\n\nAllBy Minority Education Policy\n\n\n\n\n\n\n\nA lot more languages are definitely and severely endangered for countries with good infant mortality care compared to countries with bad or high infant mortality rate\n\n\n\n\n\n\n\nA lot more countries are severely endangered in advanced economies where infant mortality is low and there is no minority education policy"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Me",
     "section": "",
     "text": "Hi! My name is Emmanuel Yeboah. I enjoy graphic-designing, film-making, and playing badminton (or tennis).\nYou can reach me at : emmayeboah2007@gmail.com"
+  },
+  {
+    "objectID": "Endangered-Languages-Around-the-World/about.html",
+    "href": "Endangered-Languages-Around-the-World/about.html",
+    "title": "About",
+    "section": "",
+    "text": "Hi, My name is Emmanuel Yeboah. I’m a rising high school junior. I enjoy graphic-designing, film-making, and playing badminton (or tennis).\nYou can reach my at emmayeboah2007@gmail.com."
+  },
+  {
+    "objectID": "Endangered-Languages-Around-the-World/about.html#about-me",
+    "href": "Endangered-Languages-Around-the-World/about.html#about-me",
+    "title": "About",
+    "section": "",
+    "text": "Hi, My name is Emmanuel Yeboah. I’m a rising high school junior. I enjoy graphic-designing, film-making, and playing badminton (or tennis).\nYou can reach my at emmayeboah2007@gmail.com."
+  },
+  {
+    "objectID": "Endangered-Languages-Around-the-World/about.html#about-this-project",
+    "href": "Endangered-Languages-Around-the-World/about.html#about-this-project",
+    "title": "About",
+    "section": "About this Project",
+    "text": "About this Project\nThis project was created as a part of Kane’s Data Science Bootcamp a 6-week course that teaches you the basics of Data Science."
+  },
+  {
+    "objectID": "Endangered-Languages-Around-the-World/index.html",
+    "href": "Endangered-Languages-Around-the-World/index.html",
+    "title": "Kwaku-Adu's Blog",
+    "section": "",
+    "text": "According to the World Economic Forum, there are approximately 7,000 recognized languages worldwide, however people communicate mainly in only 20 languages. A recent research publication, found that 1,500 of the world’s endangered languages are at risk of disappearing by the end of the century.\nAlmost a staggering half of all the vulnerable languages in the US are extinct!\n\n\n\n\n\n\nThe purpose of this project is to explore some of the global factors affecting language endangerment in an attempt to find ways to help save them. Some social and economic factors affecting global language endangerment are explored. A Bayesian linear model was subsequently built to verify the significance of these factors, and predict the degree of language endangerment.\nTable 1 below is the official UNESCO Language Endangerment Classification System.\n\n\n\n\n\n\n  \n    \n    \n  \n  \n    \n    \n      Classification1\n      Explanation\n    \n  \n  \n    1: Vulnerable\nThe language is commonly spoken by children, but its usage might be limited to specific areas or contexts. (ex: home, etc)\n    2: Definitely Endangered\nChildren no longer acquire the language as their first language within their family environment.\n    3: Severely Endangered\nThe language is spoken by grandparents and older generations, and although parents may comprehend it, they do not actively use it when communicating with their children or among themselves.\n    4: Critically Endangered\nThe language is spoken partially and infrequently by the youngest speakers, who are typically grandparents or older individuals.\n    5: Extinct\nThere are no remaining individuals who can speak the language.\n  \n  \n  \n    \n      1 Table 1: UNESCO Classification of Degrees of Language Endangerment"
+  },
+  {
+    "objectID": "Endangered-Languages-Around-the-World/index.html#what-are-endangered-languages-and-how-can-we-help-save-them",
+    "href": "Endangered-Languages-Around-the-World/index.html#what-are-endangered-languages-and-how-can-we-help-save-them",
+    "title": "Kwaku-Adu's Blog",
+    "section": "",
+    "text": "According to the World Economic Forum, there are approximately 7,000 recognized languages worldwide, however people communicate mainly in only 20 languages. A recent research publication, found that 1,500 of the world’s endangered languages are at risk of disappearing by the end of the century.\nAlmost a staggering half of all the vulnerable languages in the US are extinct!\n\n\n\n\n\n\nThe purpose of this project is to explore some of the global factors affecting language endangerment in an attempt to find ways to help save them. Some social and economic factors affecting global language endangerment are explored. A Bayesian linear model was subsequently built to verify the significance of these factors, and predict the degree of language endangerment.\nTable 1 below is the official UNESCO Language Endangerment Classification System.\n\n\n\n\n\n\n  \n    \n    \n  \n  \n    \n    \n      Classification1\n      Explanation\n    \n  \n  \n    1: Vulnerable\nThe language is commonly spoken by children, but its usage might be limited to specific areas or contexts. (ex: home, etc)\n    2: Definitely Endangered\nChildren no longer acquire the language as their first language within their family environment.\n    3: Severely Endangered\nThe language is spoken by grandparents and older generations, and although parents may comprehend it, they do not actively use it when communicating with their children or among themselves.\n    4: Critically Endangered\nThe language is spoken partially and infrequently by the youngest speakers, who are typically grandparents or older individuals.\n    5: Extinct\nThere are no remaining individuals who can speak the language.\n  \n  \n  \n    \n      1 Table 1: UNESCO Classification of Degrees of Language Endangerment"
+  },
+  {
+    "objectID": "Endangered-Languages-Around-the-World/sources.html",
+    "href": "Endangered-Languages-Around-the-World/sources.html",
+    "title": "Sources",
+    "section": "",
+    "text": "Kaggle: Languages Endangerment Data\nKaggle: Country-Level Socio-economic Data: Source A\nNature Article: Country-Level Socio-economic Data: Source B"
+  },
+  {
+    "objectID": "Endangered-Languages-Around-the-World/sources.html#the-dataset-i-used-for-this-project",
+    "href": "Endangered-Languages-Around-the-World/sources.html#the-dataset-i-used-for-this-project",
+    "title": "Sources",
+    "section": "",
+    "text": "Kaggle: Languages Endangerment Data\nKaggle: Country-Level Socio-economic Data: Source A\nNature Article: Country-Level Socio-economic Data: Source B"
+  },
+  {
+    "objectID": "Endangered-Languages-Around-the-World/sources.html#the-resources-i-used-for-this-project",
+    "href": "Endangered-Languages-Around-the-World/sources.html#the-resources-i-used-for-this-project",
+    "title": "Sources",
+    "section": "The Resources I used for this Project:",
+    "text": "The Resources I used for this Project:\n\nThe Quarto Guide\nBriggs, Saga. “Endangered Languages: What Are They & How to Save Them.”\nEndangered Languages Project\nKaggle EDA\nOrdinal Logistic Regression in R\nHow do I interpret the coefficients in an ordinal logistic regression in R?"
   },
   {
     "objectID": "posts/robotics-competition/index.html",

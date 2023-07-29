@@ -9,21 +9,21 @@ website:
     background: secondary
     left:
       - about.qmd
-      - sidebar:Kanes_DS-Class_Degree-Of-Endangered-Languages
+      - sidebar:Endangered-Languages-Around-the-World
       - icon: github
         href: https://github.com/kwakuemma1 
         
   sidebar:
-    - id: Kanes_DS-Class_Degree-Of-Endangered-Languages
+    - id: Endangered-Languages-Around-the-World
       title: "Endangered Languages"
       # style: "docked"
       # collapse-level: 6
       contents: 
-        - Kanes_DS-Class_Degree-Of-Endangered-Languages/index.qmd
-        - Kanes_DS-Class_Degree-Of-Endangered-Languages/eda.qmd
-        - Kanes_DS-Class_Degree-Of-Endangered-Languages/models.qmd
-        - Kanes_DS-Class_Degree-Of-Endangered-Languages/sources.qmd
-        - Kanes_DS-Class_Degree-Of-Endangered-Languages/about.qmd
+        - Endangered-Languages-Around-the-World/index.qmd
+        - Endangered-Languages-Around-the-World/eda.qmd
+        - Endangered-Languages-Around-the-World/models.qmd
+        - Endangered-Languages-Around-the-World/sources.qmd
+        - Endangered-Languages-Around-the-World/about.qmd
         
         
     - title: "Empty space"
