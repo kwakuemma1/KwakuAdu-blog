@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-image: blog_proflie_pic.jpg
+image: blog_proflie_pic02.jpg
 about:
   template: jolla
   links:
