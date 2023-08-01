@@ -1,0 +1,62 @@
+---
+title: "Winter 2022 3D Animation Experience"
+author: "Emmnauel Yeboah"
+date: "2023-07-16"
+categories: [animation class]
+image: "Finished _Apple_ProJect_ Two (Cycles).png"
+---
+
+
+## My Reflection
+
+From October 1st to November 30th, I spent my winter breaks learning the basics of creating 3D animation in [CGBOOST Academy](https://academy.cgboost.com/courses). Throughout that time, I learned how to work with [Blender](https://www.blender.org/about/).
+
+Foremost, I gained an understanding of how to create a 3D object from scratch and using lighting as well as designing to make the 3D object look the way one would it to look like. I also acquired skills in using 2d Images in the process of making 3D objects. 
+
+
+
+## My Journey Through Creating the Apple Bowl. 
+By the end of the course I successfully created a 3D apple bowl and a knife on a wooden floor. But doing so was not an easy task. Here is my reflection of each lesson:
+
+![**Photo**: A rendered picture of the final look](images/Finished _Apple_ProJect_ One.png) 
+
+
+
+### Lesson One: Creating the Apple
+
+To first make the 3D apple I had to first make a solid 3D version of it or in Blender terms an Organic Model
+
+
+
+
+
+![](images/apple_paint.png)
+
+
+![](images/apple.png) 
+
+![](images/apple_cut.png)
+
+![](images/leaf.png)
+
+
+### Lesson Two: The bowl and Fabirc
+![](Images/fabric.jpg)
+
+
+### Lesson Three: The knife
+![](images/knife_paint.png)
+![](images/knife.png)
+
+
+### Lesson Four: The Wooden Floor
+![](images/wood.png)
+
+
+
+
+## My Journey Through Creating the Dount. 
+To continue my exploration into further understanding of the world of 3D animation I found a youtube playlist of a step by step intruction on how to make a donut. 
+
+
+

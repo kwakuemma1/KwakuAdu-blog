@@ -1,31 +1,143 @@
 [
   {
-    "objectID": "posts/summer-experience_2023/index.html",
-    "href": "posts/summer-experience_2023/index.html",
+    "objectID": "posts/summer-DS-experience_2023/index.html",
+    "href": "posts/summer-DS-experience_2023/index.html",
     "title": "Summer 2023 Data Science Experience",
     "section": "",
     "text": "From June 4th to July 12, 2023, I spent my summer learning the basics of data science from Kane’s Data Science Bootcamp. During that time, I learned how to work with R and RStudio.\nMore Importantly, I gained an understanding of how to extract meaningful insights from data, and tell compelling stories using plots (ggplot in R), and statistical models. I also acquired skills in using other resources, such as Github, to keep my code organized and collaborate with others.\nThis course also covered the fundamentals of coding and statistics while providing me with the opportunity to experience what it’s like to take a Harvard course."
   },
   {
-    "objectID": "posts/summer-experience_2023/index.html#my-experience",
-    "href": "posts/summer-experience_2023/index.html#my-experience",
+    "objectID": "posts/summer-DS-experience_2023/index.html#my-experience",
+    "href": "posts/summer-DS-experience_2023/index.html#my-experience",
     "title": "Summer 2023 Data Science Experience",
     "section": "",
     "text": "From June 4th to July 12, 2023, I spent my summer learning the basics of data science from Kane’s Data Science Bootcamp. During that time, I learned how to work with R and RStudio.\nMore Importantly, I gained an understanding of how to extract meaningful insights from data, and tell compelling stories using plots (ggplot in R), and statistical models. I also acquired skills in using other resources, such as Github, to keep my code organized and collaborate with others.\nThis course also covered the fundamentals of coding and statistics while providing me with the opportunity to experience what it’s like to take a Harvard course."
   },
   {
-    "objectID": "posts/summer-experience_2023/index.html#my-final-project",
-    "href": "posts/summer-experience_2023/index.html#my-final-project",
+    "objectID": "posts/summer-DS-experience_2023/index.html#my-final-project",
+    "href": "posts/summer-DS-experience_2023/index.html#my-final-project",
     "title": "Summer 2023 Data Science Experience",
     "section": "My Final Project",
-    "text": "My Final Project\nBy the end of the course (as a final project) I successfully created a mini-website showcasing my analysis on Endangered Languages. The topic delves into the social and economic factors endangering vulnerable languages."
+    "text": "My Final Project\nBy the end of the course (as a final project) I created a website showcasing my analysis on Endangered Languages. The topic delves into the social and economic factors endangering vulnerable languages."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Blog Entries",
+    "objectID": "posts/3D-animation-experience_2022/index.html",
+    "href": "posts/3D-animation-experience_2022/index.html",
+    "title": "Winter 2022 3D Animation Experience",
     "section": "",
-    "text": "Summer 2023 Data Science Experience\n\n\n\n\n\n\n\nbootcamp\n\n\n\n\n\n\n\n\n\n\n\nJul 20, 2023\n\n\nEmmnauel Yeboah\n\n\n\n\n\n\n  \n\n\n\n\nMy First Robotics Competition\n\n\n\n\n\n\n\ncompetition\n\n\n\n\n\n\n\n\n\n\n\nJun 12, 2023\n\n\nEmmanuel Yeboah\n\n\n\n\n\n\nNo matching items"
+    "text": "From October 1st to November 30th, I spent my winter breaks learning the basics of creating 3D animation in CGBOOST Academy. Throughout that time, I learned how to work with Blender.\nForemost, I gained an understanding of how to create a 3D object from scratch and using lighting as well as designing to make the 3D object look the way one would it to look like. I also acquired skills in using 2d Images in the process of making 3D objects."
+  },
+  {
+    "objectID": "posts/3D-animation-experience_2022/index.html#my-reflection",
+    "href": "posts/3D-animation-experience_2022/index.html#my-reflection",
+    "title": "Winter 2022 3D Animation Experience",
+    "section": "",
+    "text": "From October 1st to November 30th, I spent my winter breaks learning the basics of creating 3D animation in CGBOOST Academy. Throughout that time, I learned how to work with Blender.\nForemost, I gained an understanding of how to create a 3D object from scratch and using lighting as well as designing to make the 3D object look the way one would it to look like. I also acquired skills in using 2d Images in the process of making 3D objects."
+  },
+  {
+    "objectID": "posts/3D-animation-experience_2022/index.html#my-journey-through-creating-the-apple-bowl.",
+    "href": "posts/3D-animation-experience_2022/index.html#my-journey-through-creating-the-apple-bowl.",
+    "title": "Winter 2022 3D Animation Experience",
+    "section": "My Journey Through Creating the Apple Bowl.",
+    "text": "My Journey Through Creating the Apple Bowl.\nBy the end of the course I successfully created a 3D apple bowl and a knife on a wooden floor. But doing so was not an easy task. Here is my reflection of each lesson:\n\n\n\nPhoto: A rendered picture of the final look\n\n\n\nLesson One: Creating the Apple\nTo first make the 3D apple I had to first make a solid 3D version of it or in Blender terms an Organic Model\n\n\n\n\n\n\nLesson Two: The bowl and Fabirc\n\n\n\nLesson Three: The knife\n \n\n\nLesson Four: The Wooden Floor"
+  },
+  {
+    "objectID": "posts/3D-animation-experience_2022/index.html#my-journey-through-creating-the-dount.",
+    "href": "posts/3D-animation-experience_2022/index.html#my-journey-through-creating-the-dount.",
+    "title": "Winter 2022 3D Animation Experience",
+    "section": "My Journey Through Creating the Dount.",
+    "text": "My Journey Through Creating the Dount.\nTo continue my exploration into further understanding of the world of 3D animation I found a youtube playlist of a step by step intruction on how to make a donut."
+  },
+  {
+    "objectID": "Endangered-Languages/sources.html",
+    "href": "Endangered-Languages/sources.html",
+    "title": "Sources",
+    "section": "",
+    "text": "Kaggle: Languages Endangerment Data\nKaggle: Country-Level Socio-economic Data: Source A\nNature Article: Country-Level Socio-economic Data: Source B"
+  },
+  {
+    "objectID": "Endangered-Languages/sources.html#the-dataset-i-used-for-this-project",
+    "href": "Endangered-Languages/sources.html#the-dataset-i-used-for-this-project",
+    "title": "Sources",
+    "section": "",
+    "text": "Kaggle: Languages Endangerment Data\nKaggle: Country-Level Socio-economic Data: Source A\nNature Article: Country-Level Socio-economic Data: Source B"
+  },
+  {
+    "objectID": "Endangered-Languages/sources.html#the-resources-i-used-for-this-project",
+    "href": "Endangered-Languages/sources.html#the-resources-i-used-for-this-project",
+    "title": "Sources",
+    "section": "The Resources I used for this Project:",
+    "text": "The Resources I used for this Project:\n\nThe Quarto Guide\nBriggs, Saga. “Endangered Languages: What Are They & How to Save Them.”\nEndangered Languages Project\nKaggle EDA\nOrdinal Logistic Regression in R\nHow do I interpret the coefficients in an ordinal logistic regression in R?"
+  },
+  {
+    "objectID": "Endangered-Languages/index.html",
+    "href": "Endangered-Languages/index.html",
+    "title": "Kwaku-Adu's Blog",
+    "section": "",
+    "text": "According to the World Economic Forum, there are approximately 7,000 recognized languages worldwide, however people communicate mainly in only 20 languages. A recent research publication, found that 1,500 of the world’s endangered languages are at risk of disappearing by the end of the century.\nAlmost a staggering half of all the vulnerable languages in the US are extinct!\n\n\n\n\n\n\nThe purpose of this project is to explore some of the global factors affecting language endangerment in an attempt to find ways to help save them. Some social and economic factors affecting global language endangerment are explored. A Bayesian linear model was subsequently built to verify the significance of these factors, and predict the degree of language endangerment.\nTable 1 below is the official UNESCO Language Endangerment Classification System.\n\n\n\n\n\n\n\n\n\n\n\nClassification1\n\n      Explanation\n    \n\n\n1: Vulnerable\nThe language is commonly spoken by children, but its usage might be limited to specific areas or contexts. (ex: home, etc)\n\n\n2: Definitely Endangered\nChildren no longer acquire the language as their first language within their family environment.\n\n\n3: Severely Endangered\nThe language is spoken by grandparents and older generations, and although parents may comprehend it, they do not actively use it when communicating with their children or among themselves.\n\n\n4: Critically Endangered\nThe language is spoken partially and infrequently by the youngest speakers, who are typically grandparents or older individuals.\n\n\n5: Extinct\nThere are no remaining individuals who can speak the language.\n\n\n\n\n1 Table 1: UNESCO Classification of Degrees of Language Endangerment"
+  },
+  {
+    "objectID": "Endangered-Languages/index.html#what-are-endangered-languages-and-how-can-we-help-save-them",
+    "href": "Endangered-Languages/index.html#what-are-endangered-languages-and-how-can-we-help-save-them",
+    "title": "Kwaku-Adu's Blog",
+    "section": "",
+    "text": "According to the World Economic Forum, there are approximately 7,000 recognized languages worldwide, however people communicate mainly in only 20 languages. A recent research publication, found that 1,500 of the world’s endangered languages are at risk of disappearing by the end of the century.\nAlmost a staggering half of all the vulnerable languages in the US are extinct!\n\n\n\n\n\n\nThe purpose of this project is to explore some of the global factors affecting language endangerment in an attempt to find ways to help save them. Some social and economic factors affecting global language endangerment are explored. A Bayesian linear model was subsequently built to verify the significance of these factors, and predict the degree of language endangerment.\nTable 1 below is the official UNESCO Language Endangerment Classification System.\n\n\n\n\n\n\n\n\n\n\n\nClassification1\n\n      Explanation\n    \n\n\n1: Vulnerable\nThe language is commonly spoken by children, but its usage might be limited to specific areas or contexts. (ex: home, etc)\n\n\n2: Definitely Endangered\nChildren no longer acquire the language as their first language within their family environment.\n\n\n3: Severely Endangered\nThe language is spoken by grandparents and older generations, and although parents may comprehend it, they do not actively use it when communicating with their children or among themselves.\n\n\n4: Critically Endangered\nThe language is spoken partially and infrequently by the youngest speakers, who are typically grandparents or older individuals.\n\n\n5: Extinct\nThere are no remaining individuals who can speak the language.\n\n\n\n\n1 Table 1: UNESCO Classification of Degrees of Language Endangerment"
+  },
+  {
+    "objectID": "Endangered-Languages/about.html",
+    "href": "Endangered-Languages/about.html",
+    "title": "About",
+    "section": "",
+    "text": "Hi, My name is Emmanuel Yeboah. I’m a rising high school junior. I enjoy graphic-designing, film-making, and playing badminton (or tennis).\nYou can reach me at : emmayeboah the year 2007 at gmail.com"
+  },
+  {
+    "objectID": "Endangered-Languages/about.html#about-me",
+    "href": "Endangered-Languages/about.html#about-me",
+    "title": "About",
+    "section": "",
+    "text": "Hi, My name is Emmanuel Yeboah. I’m a rising high school junior. I enjoy graphic-designing, film-making, and playing badminton (or tennis).\nYou can reach me at : emmayeboah the year 2007 at gmail.com"
+  },
+  {
+    "objectID": "Endangered-Languages/about.html#about-this-project",
+    "href": "Endangered-Languages/about.html#about-this-project",
+    "title": "About",
+    "section": "About this Project",
+    "text": "About this Project\nThis project was created as a part of Kane’s Data Science Bootcamp a 6-week course that teaches you the basics of Data Science."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "Hi! I go by Emmanuel Yeboah or my native name Kwaku Adu. I’m a rising junior in high School. I love Geography and history. I am currently exploring robotics, film making and animation, and computer programming. I like to play badminton or tennis when free.\nWith this blog, I plan to document some cool things I am learning and some life experiences.\nYou can reach me at : emmayeboah the year 2007 at gmail.com"
+  },
+  {
+    "objectID": "Endangered-Languages/eda.html#proportion-of-the-degrees-of-endangerment",
+    "href": "Endangered-Languages/eda.html#proportion-of-the-degrees-of-endangerment",
+    "title": "Kwaku-Adu's Blog",
+    "section": "Proportion of the Degrees of Endangerment",
+    "text": "Proportion of the Degrees of Endangerment"
+  },
+  {
+    "objectID": "Endangered-Languages/eda.html#median-language-endangerment-by-country",
+    "href": "Endangered-Languages/eda.html#median-language-endangerment-by-country",
+    "title": "Kwaku-Adu's Blog",
+    "section": "Median Language Endangerment By Country",
+    "text": "Median Language Endangerment By Country\nAlmost a staggering half of all the vulnerable languages in the US are extinct!"
+  },
+  {
+    "objectID": "Endangered-Languages/eda.html#how-does-literacy-rate-affect-language-endangerment",
+    "href": "Endangered-Languages/eda.html#how-does-literacy-rate-affect-language-endangerment",
+    "title": "Kwaku-Adu's Blog",
+    "section": "How does Literacy Rate Affect Language Endangerment",
+    "text": "How does Literacy Rate Affect Language Endangerment\n\n\n\nAll\nBy Minority Education Policy\n\n\n\n\n\n\n\n\nThe most literate countries seem to have a higher proportion of definitely endangered languages compared to the bottom 10% (or least literate countries)\n\n\n\n\n\n\n\nCountries with minority education policies have lower percent of extinct languages"
+  },
+  {
+    "objectID": "Endangered-Languages/eda.html#how-does-infant-mortality-rate-affect-language-endangerment",
+    "href": "Endangered-Languages/eda.html#how-does-infant-mortality-rate-affect-language-endangerment",
+    "title": "Kwaku-Adu's Blog",
+    "section": "How does Infant Mortality Rate Affect Language Endangerment",
+    "text": "How does Infant Mortality Rate Affect Language Endangerment\n\n\n\nAll\nBy Minority Education Policy\n\n\n\n\n\n\n\n\nA lot more languages are definitely and severely endangered for countries with good infant mortality care compared to countries with bad or high infant mortality rate\n\n\n\n\n\n\n\nA lot more countries are severely endangered in advanced economies where infant mortality is low and there is no minority education policy"
   },
   {
     "objectID": "Endangered-Languages/models.html",
@@ -63,95 +175,11 @@
     "text": "Conclusion\nTo help preserve endangered languages, policy makers must introduce policies that make endangered regions more attractive to prevent migration of current speakers to urban regions.\nAlso improving literacy rate and agricultural economic opportunities in these regions could help preserve the local population, and in turn preserve the local language.\nLanguages that are already classified as definitely endangered are at significant risk of going extinct. Urgent attention should be given to such languages."
   },
   {
-    "objectID": "Endangered-Languages/eda.html#proportion-of-the-degrees-of-endangerment",
-    "href": "Endangered-Languages/eda.html#proportion-of-the-degrees-of-endangerment",
-    "title": "Kwaku-Adu's Blog",
-    "section": "Proportion of the Degrees of Endangerment",
-    "text": "Proportion of the Degrees of Endangerment"
-  },
-  {
-    "objectID": "Endangered-Languages/eda.html#median-language-endangerment-by-country",
-    "href": "Endangered-Languages/eda.html#median-language-endangerment-by-country",
-    "title": "Kwaku-Adu's Blog",
-    "section": "Median Language Endangerment By Country",
-    "text": "Median Language Endangerment By Country\nAlmost a staggering half of all the vulnerable languages in the US are extinct!"
-  },
-  {
-    "objectID": "Endangered-Languages/eda.html#how-does-literacy-rate-affect-language-endangerment",
-    "href": "Endangered-Languages/eda.html#how-does-literacy-rate-affect-language-endangerment",
-    "title": "Kwaku-Adu's Blog",
-    "section": "How does Literacy Rate Affect Language Endangerment",
-    "text": "How does Literacy Rate Affect Language Endangerment\n\n\n\nAll\nBy Minority Education Policy\n\n\n\n\n\n\n\n\nThe most literate countries seem to have a higher proportion of definitely endangered languages compared to the bottom 10% (or least literate countries)\n\n\n\n\n\n\n\nCountries with minority education policies have lower percent of extinct languages"
-  },
-  {
-    "objectID": "Endangered-Languages/eda.html#how-does-infant-mortality-rate-affect-language-endangerment",
-    "href": "Endangered-Languages/eda.html#how-does-infant-mortality-rate-affect-language-endangerment",
-    "title": "Kwaku-Adu's Blog",
-    "section": "How does Infant Mortality Rate Affect Language Endangerment",
-    "text": "How does Infant Mortality Rate Affect Language Endangerment\n\n\n\nAll\nBy Minority Education Policy\n\n\n\n\n\n\n\n\nA lot more languages are definitely and severely endangered for countries with good infant mortality care compared to countries with bad or high infant mortality rate\n\n\n\n\n\n\n\nA lot more countries are severely endangered in advanced economies where infant mortality is low and there is no minority education policy"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Blog Entries",
     "section": "",
-    "text": "Hi! I go by Emmanuel Yeboah or my native name Kwaku Adu. I’m a rising junior in high Schhol. I love Geography and history. I am currently exploring robotics, film making and animation, and computer programming. I like to play badminton or tennis when free.\nWith this blog, I plan to document some cool things I am learning and some life experiences.\nYou can reach me at : emmayeboah the year 2007 at gmail.com"
-  },
-  {
-    "objectID": "Endangered-Languages/about.html",
-    "href": "Endangered-Languages/about.html",
-    "title": "About",
-    "section": "",
-    "text": "Hi, My name is Emmanuel Yeboah. I’m a rising high school junior. I enjoy graphic-designing, film-making, and playing badminton (or tennis).\nYou can reach me at : emmayeboah the year 2007 at gmail.com"
-  },
-  {
-    "objectID": "Endangered-Languages/about.html#about-me",
-    "href": "Endangered-Languages/about.html#about-me",
-    "title": "About",
-    "section": "",
-    "text": "Hi, My name is Emmanuel Yeboah. I’m a rising high school junior. I enjoy graphic-designing, film-making, and playing badminton (or tennis).\nYou can reach me at : emmayeboah the year 2007 at gmail.com"
-  },
-  {
-    "objectID": "Endangered-Languages/about.html#about-this-project",
-    "href": "Endangered-Languages/about.html#about-this-project",
-    "title": "About",
-    "section": "About this Project",
-    "text": "About this Project\nThis project was created as a part of Kane’s Data Science Bootcamp a 6-week course that teaches you the basics of Data Science."
-  },
-  {
-    "objectID": "Endangered-Languages/index.html",
-    "href": "Endangered-Languages/index.html",
-    "title": "Kwaku-Adu's Blog",
-    "section": "",
-    "text": "According to the World Economic Forum, there are approximately 7,000 recognized languages worldwide, however people communicate mainly in only 20 languages. A recent research publication, found that 1,500 of the world’s endangered languages are at risk of disappearing by the end of the century.\nAlmost a staggering half of all the vulnerable languages in the US are extinct!\n\n\n\n\n\n\nThe purpose of this project is to explore some of the global factors affecting language endangerment in an attempt to find ways to help save them. Some social and economic factors affecting global language endangerment are explored. A Bayesian linear model was subsequently built to verify the significance of these factors, and predict the degree of language endangerment.\nTable 1 below is the official UNESCO Language Endangerment Classification System.\n\n\n\n\n\n\n\n\n\n\n\nClassification1\n\n      Explanation\n    \n\n\n1: Vulnerable\nThe language is commonly spoken by children, but its usage might be limited to specific areas or contexts. (ex: home, etc)\n\n\n2: Definitely Endangered\nChildren no longer acquire the language as their first language within their family environment.\n\n\n3: Severely Endangered\nThe language is spoken by grandparents and older generations, and although parents may comprehend it, they do not actively use it when communicating with their children or among themselves.\n\n\n4: Critically Endangered\nThe language is spoken partially and infrequently by the youngest speakers, who are typically grandparents or older individuals.\n\n\n5: Extinct\nThere are no remaining individuals who can speak the language.\n\n\n\n\n1 Table 1: UNESCO Classification of Degrees of Language Endangerment"
-  },
-  {
-    "objectID": "Endangered-Languages/index.html#what-are-endangered-languages-and-how-can-we-help-save-them",
-    "href": "Endangered-Languages/index.html#what-are-endangered-languages-and-how-can-we-help-save-them",
-    "title": "Kwaku-Adu's Blog",
-    "section": "",
-    "text": "According to the World Economic Forum, there are approximately 7,000 recognized languages worldwide, however people communicate mainly in only 20 languages. A recent research publication, found that 1,500 of the world’s endangered languages are at risk of disappearing by the end of the century.\nAlmost a staggering half of all the vulnerable languages in the US are extinct!\n\n\n\n\n\n\nThe purpose of this project is to explore some of the global factors affecting language endangerment in an attempt to find ways to help save them. Some social and economic factors affecting global language endangerment are explored. A Bayesian linear model was subsequently built to verify the significance of these factors, and predict the degree of language endangerment.\nTable 1 below is the official UNESCO Language Endangerment Classification System.\n\n\n\n\n\n\n\n\n\n\n\nClassification1\n\n      Explanation\n    \n\n\n1: Vulnerable\nThe language is commonly spoken by children, but its usage might be limited to specific areas or contexts. (ex: home, etc)\n\n\n2: Definitely Endangered\nChildren no longer acquire the language as their first language within their family environment.\n\n\n3: Severely Endangered\nThe language is spoken by grandparents and older generations, and although parents may comprehend it, they do not actively use it when communicating with their children or among themselves.\n\n\n4: Critically Endangered\nThe language is spoken partially and infrequently by the youngest speakers, who are typically grandparents or older individuals.\n\n\n5: Extinct\nThere are no remaining individuals who can speak the language.\n\n\n\n\n1 Table 1: UNESCO Classification of Degrees of Language Endangerment"
-  },
-  {
-    "objectID": "Endangered-Languages/sources.html",
-    "href": "Endangered-Languages/sources.html",
-    "title": "Sources",
-    "section": "",
-    "text": "Kaggle: Languages Endangerment Data\nKaggle: Country-Level Socio-economic Data: Source A\nNature Article: Country-Level Socio-economic Data: Source B"
-  },
-  {
-    "objectID": "Endangered-Languages/sources.html#the-dataset-i-used-for-this-project",
-    "href": "Endangered-Languages/sources.html#the-dataset-i-used-for-this-project",
-    "title": "Sources",
-    "section": "",
-    "text": "Kaggle: Languages Endangerment Data\nKaggle: Country-Level Socio-economic Data: Source A\nNature Article: Country-Level Socio-economic Data: Source B"
-  },
-  {
-    "objectID": "Endangered-Languages/sources.html#the-resources-i-used-for-this-project",
-    "href": "Endangered-Languages/sources.html#the-resources-i-used-for-this-project",
-    "title": "Sources",
-    "section": "The Resources I used for this Project:",
-    "text": "The Resources I used for this Project:\n\nThe Quarto Guide\nBriggs, Saga. “Endangered Languages: What Are They & How to Save Them.”\nEndangered Languages Project\nKaggle EDA\nOrdinal Logistic Regression in R\nHow do I interpret the coefficients in an ordinal logistic regression in R?"
+    "text": "Summer 2023 Data Science Experience\n\n\n\n\n\n\n\nbootcamp\n\n\n\n\n\n\n\n\n\n\n\nJul 20, 2023\n\n\nEmmnauel Yeboah\n\n\n\n\n\n\n  \n\n\n\n\nWinter 2022 3D Animation Experience\n\n\n\n\n\n\n\nanimation class\n\n\n\n\n\n\n\n\n\n\n\nJul 16, 2023\n\n\nEmmnauel Yeboah\n\n\n\n\n\n\n  \n\n\n\n\nMy First Robotics Competition\n\n\n\n\n\n\n\ncompetition\n\n\n\n\n\n\n\n\n\n\n\nJun 12, 2023\n\n\nEmmanuel Yeboah\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/robotics-competition/index.html",
