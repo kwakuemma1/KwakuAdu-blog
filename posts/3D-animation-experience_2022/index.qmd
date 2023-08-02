@@ -27,12 +27,6 @@ By the end of the course I successfully created a 3D apple bowl and a knife on a
 To first make the 3D apple I had to first make a solid 3D version of it or in Blender terms an Organic Model of the apple. Once done I then used the following textures below to wrap it around the organic model 
 
 
-
-
-
-![](images/apple_paint.png)
-
-
 ![](images/apple.png) 
 
 ![](images/apple_cut.png)
@@ -45,7 +39,6 @@ To first make the 3D apple I had to first make a solid 3D version of it or in Bl
 
 
 ### Lesson Three: The knife
-![](images/knife_paint.png)
 ![](images/knife.png)
 
 
