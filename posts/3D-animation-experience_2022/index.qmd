@@ -9,14 +9,16 @@ image: "Finished _Apple_ProJect_ Two (Cycles).png"
 
 ## My First Dip into the World of Graphics Design
 
-From October 1st to November 30th, I spent my winter breaks learning the basics of creating 3D animation in [CGBOOST Academy](https://academy.cgboost.com/courses). Throughout that time, I learned how to work with [Blender](https://www.blender.org/about/).
+During my winter breaks, I dedicated my time to learning the basics of creating 3D animation in [CGBOOST Academy](https://academy.cgboost.com/courses). Over the course of my studies, I learned how to work with [Blender](https://www.blender.org/about/) a powerful and versatile 3D computer graphics software used for creating, modeling, animating, and rendering a wide range of visual content.
 
-Foremost, I gained an understanding of how to create a 3D object from scratch and using lighting as well as designing to make the 3D object look the way one would it to look like. I also acquired skills in using 2d Images in the process of making 3D objects. 
+Foremost, this enriching experience helped me gain an understanding of how to create a 3D object from scratch, employing lighting and design to achieve the desired visual aesthetics. Moreover, I acquired skills in using 2D Images in the process of creating 3D objects.
 
+Beyond that, this Course also showed me how mathematics is used to make this process possible and user-friendly by introducing me to Blender's use of mathematics in the 3D coordinate system. The 3D coordinate system in Blender works like a virtual 3D space, where every point in a scene is defined by three numbers (X, Y, and Z). 
 
+These numbers represent the object's position relative to the world or to other objects in the scene. By using these coordinates, Blender can precisely position objects in the 3D space, allowing one to move, rotate, and scale them with accuracy. 
 
-## My Journey Through Creating the Apple Bowl. 
-By the end of the course I created a 3D apple bowl and a knife on a wooden floor. But doing so was not an easy task. Here is my reflection of each lesson:
+## My Journey Through Creating the Apple Bowl Scene. 
+By the end of the course, I created a 3D representation of an apple bowl, in the bowl are apples resting on a cloth. Adjacent to the bowl, is a designed knife placed upon the same cloth that rests on the wooden floor after cutting a washed apple in half. Below is my reflection of each lesson: 
 
 ![**Photo**: A rendered picture of the final look](images/Finished _Apple_ProJect_ One.png) 
 
@@ -24,7 +26,7 @@ By the end of the course I created a 3D apple bowl and a knife on a wooden floor
 
 ### Lesson One: Creating the Apple
 
-To first make the 3D apple I had to first make a solid 3D version of it or in Blender terms an Organic Model of the apple. Once done I then used the following textures below to wrap it around the organic model 
+To first make the 3D apple I had to make a solid 3D version of it or in Blender terms an Organic Model of the apple. Once done I then used textures tp wrap it around the organic model to make it look like a real apple. 
 
 
 ![](images/apple.png) 
@@ -49,7 +51,7 @@ To first make the 3D apple I had to first make a solid 3D version of it or in Bl
 
 
 ## My Journey Through Creating the Dount. 
-To continue my exploration into further understanding of the world of 3D animation I found a youtube playlist of a step by step intruction on how to make a donut. 
+To continue my exploration into further understanding of the world of 3D animation I found a YouTube playlist of a step by step instruction on how to make a donut. 
 
 
 
