@@ -31,7 +31,7 @@ By the end of the course, I created a 3D representation of an apple bowl, in the
 To first make the 3D apple I had to make a solid 3D version of it or in Blender terms an Organic Model of the apple. Once done I then used textures to wrap it around the organic model to make it look like a real apple. 
 
 
-![**Photo:** A a picture of an apples texture from different views](images/apple.png) 
+![**Photo:** A picture of an apple's texture from different views](images/apple.png) 
 
 
 
