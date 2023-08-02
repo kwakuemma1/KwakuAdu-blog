@@ -39,15 +39,15 @@ To first make the 3D apple I had to make a solid 3D version of it or in Blender 
 
 
 ### Lesson Two: The bowl and Fabirc
-![](Images/fabric.jpg)
+
 
 
 ### Lesson Three: The knife
-![](images/knife.png)
+
 
 
 ### Lesson Four: The Wooden Floor
-![](images/wood.png)
+
 
 
 
