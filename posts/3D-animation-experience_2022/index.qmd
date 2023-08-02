@@ -30,24 +30,26 @@ By the end of the course, I created a 3D representation of an apple bowl, in the
 
 To make the 3D apple, my first step involved crafting a solid 3D version of it, commonly referred to as an Organic Model in Blender. Making the organic model was a very cool experience for me because I was introduced to using new tools such as sculpting to mold and shape digital clay-like materials directly on the 3D surface and Subdivision Surface to smooth out the meshes (vertices and edges) created after the sculpting. 
 
-Once done, I then proceeded to apply textures to wrap it around the organic model to resemble a real-life apple. The process of adding the textures was also a really fascinating experience for me, as I was once again introduced to new tools, such as Texture Painting to paint directly onto the model's surface to add color and details and UV Mapping to apply textures and images accurately to the apple. 
+Once done, I then proceeded to apply textures to wrap it around the organic model to resemble a real-life apple. The process of adding the textures was also a really fascinating experience for me, as I was once again introduced to new tools, such as Texture Painting to paint directly onto the model's surface to add color and details, UV Mapping to apply textures and images accurately to the apple, and Principled Shader to control various surface properties of objects, such as color, roughness, and transparency,
 
 
-![**Photo:** A picture of an apple's texture (I used this in theprocess of making the apples looks more realsitc)](images/apple_paint.png)
+![**Photo:** A picture of an apple's texture (I used this in the process of making the apples looks more realsitc)](images/apple_paint.png)
 
 To enhance the level of details on the outside and inside of the apple, I used the following textures below:
 
 ![**Photo:** A picture of an apple's texture from different views](images/apple.png) 
 
 
-![**Photo:** A picutre of cutted apple in half.](images/apple_cut.png)
+![**Photo:** A picutre of a cutted apple in half.](images/apple_cut.png)
 
-Finally, after replicating the apples I proceeded to add a leaf to a couple of them, using the leaf image below: 
+Finally, after replicating the apples I proceeded to add a leaf to a couple of them, using the image shown below with a transparent alpha channel. A special type of image that allows certain parts of the picture to be see-through or invisible.
 
 ![**Photo**: An apple leaf](images/leaf.png)
 
 
 ### Lesson Two: The bowl and Fabirc
+
+
 
 
 
