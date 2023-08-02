@@ -2,12 +2,12 @@
 title: "Winter 2022 3D Animation Experience"
 author: "Emmnauel Yeboah"
 date: "2023-07-16"
-categories: [animation class]
+categories: [animation]
 image: "Finished _Apple_ProJect_ Two (Cycles).png"
 ---
 
 
-## My Reflection
+## My First Dip into the World of Graphics Design
 
 From October 1st to November 30th, I spent my winter breaks learning the basics of creating 3D animation in [CGBOOST Academy](https://academy.cgboost.com/courses). Throughout that time, I learned how to work with [Blender](https://www.blender.org/about/).
 
@@ -16,7 +16,7 @@ Foremost, I gained an understanding of how to create a 3D object from scratch an
 
 
 ## My Journey Through Creating the Apple Bowl. 
-By the end of the course I successfully created a 3D apple bowl and a knife on a wooden floor. But doing so was not an easy task. Here is my reflection of each lesson:
+By the end of the course I created a 3D apple bowl and a knife on a wooden floor. But doing so was not an easy task. Here is my reflection of each lesson:
 
 ![**Photo**: A rendered picture of the final look](images/Finished _Apple_ProJect_ One.png) 
 
