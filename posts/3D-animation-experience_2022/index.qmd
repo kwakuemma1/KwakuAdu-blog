@@ -35,9 +35,15 @@ Once done, I then proceeded to apply textures to wrap it around the organic mode
 
 ![**Photo:** A picture of an apple's texture (I used this in theprocess of making the apples looks more realsitc)](images/apple_paint.png)
 
-To enhance the level of details on the apple, I then used the following textures below:
+To enhance the level of details on the outside and inside of the apple, I used the following textures below:
 
 ![**Photo:** A picture of an apple's texture from different views](images/apple.png) 
+
+
+![**Photo:** A picutre of cutted apple in half.](images/apple_cut.png)
+
+
+
 
 
 ### Lesson Two: The bowl and Fabirc
@@ -55,7 +61,7 @@ To enhance the level of details on the apple, I then used the following textures
 
 
 ## My Journey Through Creating the Dount. 
-To continue my exploration into further understanding of the world of 3D animation I found a YouTube playlist of a step by step instruction on how to make a donut. 
+To continue my exploration into further understanding of how animation films are made in general I found a YouTube playlist of a step by step instruction on how to make a 3D donut. 
 
 
 
