@@ -29,9 +29,9 @@ To first make the 3D apple I had to first make a solid 3D version of it or in Bl
 
 ![](images/apple.png) 
 
-![](images/apple_cut.png)
 
-![](images/leaf.png)
+
+
 
 
 ### Lesson Two: The bowl and Fabirc
