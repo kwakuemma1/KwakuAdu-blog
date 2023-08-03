@@ -49,7 +49,7 @@ Finally, after replicating the apples I proceeded to add a leaf to a couple of t
 
 ### Lesson Two: The Cloth
 
-The next step in the creation of the final product, was to make the cloth. After making the cloth, I was then introduced to the process of using and learning how to perform a cloth simulation, to lay the cloth midway in the bowl and then onto the ground. This process not only taught me how to make and use a cloth simulation it also introduced me to other tools when making simulations such as the Fluid Simulation to animate liquids, such as water, pouring, splashing, and interacting with objects and (one of my favorite) the Particle System to create simulations for various effects like smoke, fire, rain, dust, and more. 
+The next step in the creation of the final product, was to make the cloth. After making the cloth, I was then introduced to the process of using and learning how to perform a cloth simulation, to lay the cloth midway in the bowl and then onto the ground. This process not only taught me how to make and use a cloth simulation it also introduced me to other tools when making simulations including, the Fluid Simulation to animate liquids, such as water, pouring, splashing, and interacting with objects and (one of my favorite) the Particle System to create simulations for various effects like smoke, fire, rain, dust, and more. 
 
 ![**Photo:** The texture used to make the cloth](images/fabric.jpg)
 
