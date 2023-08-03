@@ -73,7 +73,7 @@ However, upon completing the bowl, I took a moment to explore the possibility of
 
 
 
-![[**Photo:** The texture used for the wood](images/wood.png)
+![**Photo:** The texture used for the wood](images/wood.png)
 
 
 
