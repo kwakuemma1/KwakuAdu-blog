@@ -57,11 +57,18 @@ The next step in the creation of the final product, was to make the cloth. After
 
 ### Lesson Three: The knife
 
-![](images/knife_paint.png)
+The third step in the creation of the final product, was making the knife. Throughout this process, I used the same technique I used for making the apples, starting with creating making the organic model, and then  applying the textures and materials. However, this time, I had more detail to work with to make the knife look as realistic as possible.
 
-![](images/knife.jpg)
+Below are the following textures I worked with:
+
+![**Photo:** A picture of a knifes texture from different sides](images/knife_paint.png)
+
+![**Photo:** A picture of a knifes texture from different views](images/knife.jpg)
 
 ### Lesson Four:  The bowl and Wooden Floor
+
+
+
 
 ![](images/wood.png)
 
