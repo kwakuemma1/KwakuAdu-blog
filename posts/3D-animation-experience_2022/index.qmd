@@ -57,7 +57,7 @@ The next step in the creation of the final product, was to make the cloth. After
 
 ### Lesson Three: The knife
 
-The third step in the creation of the final product, was making the knife. Throughout this process, I used the same technique I used for making the apples, starting with creating making the organic model, and then  applying the textures and materials. However, this time, I had more detail to work with to make the knife look as realistic as possible.
+The third step in the creation of the final product, was making the knife. Throughout this process, I used the same technique I used for making the apples, starting with creating the organic model, and then applying the textures and materials. However, this time, I had more detail to work with to make the knife look as realistic as possible.
 
 Below are the following textures I worked with:
 
@@ -67,10 +67,13 @@ Below are the following textures I worked with:
 
 ### Lesson Four:  The bowl and Wooden Floor
 
+The final step involved creating the bowl and Wooden Floor. As with the previous steps, I used the same technique used for making the apples, beginning with making the organic model, and then applying the textures and materials. 
+
+However, upon completing the bowl, I took a moment to explore the possibility of making it spin. Through some exploration, I discovered that blender's timeline could be used to manage animations and edit keyframes. With this newfound discovery, I was able to animated the bowl, making it spin in different directions!
 
 
 
-![](images/wood.png)
+![[**Photo:** The texture used for the wood](images/wood.png)
 
 
 
