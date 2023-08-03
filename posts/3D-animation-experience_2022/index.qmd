@@ -61,9 +61,9 @@ The third step in the creation of the final product, was making the knife. Throu
 
 Below are the following textures I worked with:
 
-![**Photo:** A picture of a knifes texture from different sides](images/knife_paint.png)
+![**Photo:** A picture of a knife texture from different sides](images/knife_paint.png)
 
-![**Photo:** A picture of a knifes texture from different views](images/knife.jpg)
+![**Photo:** A picture of a knife texture from different views](images/knife.jpg)
 
 ### Lesson Four:  The bowl and Wooden Floor
 
@@ -80,6 +80,6 @@ However, upon completing the bowl, I took a moment to explore the possibility of
 ## My Journey Through Creating a Dount. 
 To continue my exploration into further understanding of how animation films are made in general I found a [Blender Beginner Donut Tutorial on Youtube](https://www.youtube.com/watch?v=nIoXOplUvAw&list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD) of a step by step instruction on how to make a 3D donut. 
 
-In the tutorials I learned the same things 
+ 
 
 
