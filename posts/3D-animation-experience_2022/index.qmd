@@ -35,7 +35,7 @@ Once done, I then proceeded to apply textures to wrap it around the organic mode
 
 ![**Photo:** A picture of an apple's texture (I used this in the process of making the apples looks more realsitc)](images/apple_paint.png)
 
-To enhance the level of details on the outside and inside of the apple, I used the following textures below:
+To add more details to the outside and inside of the apple, I used the following textures below:
 
 ![**Photo:** A picture of an apple's texture from different views](images/apple.png) 
 
@@ -49,7 +49,7 @@ Finally, after replicating the apples, I proceeded to add a leaf to a couple of 
 
 ### Lesson Two: Simulating the Cloth
 
-The next step in the creation of the final product, was to make the cloth. After making the cloth, I was introduced to the process of using and learning how to perform a cloth simulation, used to lay the cloth midway in the bowl and then onto the ground. This process not only taught me how to make and use a cloth simulation it also introduced me to other tools when making simulations, including, the Fluid Simulation to animate liquids, such as water, pouring, splashing, and interacting with objects and (one of my favorite) the Particle System to create simulations for various effects like smoke, fire, rain, dust, and more. 
+The next step in the creation of the final product, was to make the cloth. After making the cloth, I was introduced to the process of using and learning how to perform a cloth simulation, which was used to lay the cloth midway in the bowl and then onto the ground. This process not only taught me how to make and use a cloth simulation, it also introduced me to other simulation tools. including the Fluid Simulation to animate liquids, such as water, pouring, splashing, and interacting with objects and (one of my favorite) the Particle System to create simulations for various effects like smoke, fire, rain, dust, and more. 
 
 ![**Photo:** A cloth](images/fabric.jpg)
 
@@ -69,8 +69,7 @@ Below are the following textures I worked with:
 
 The final step involved creating the bowl and Wooden Floor. As with the previous steps, I used the same technique used for making the apples, beginning with making the organic model, and then applying the textures and materials. 
 
-However, upon completing the bowl, I took a moment to explore the possibility of making it spin. Through some exploration, I discovered that blender's timeline could be used to manage animations and edit keyframes. With this newfound discovery, I was able to animated the bowl, making it spin in different directions!
-
+Upon completing the bowl, I took a moment to explore the possibility of making it spin. Through some exploration, I discovered that blender's timeline could be used to manage animations and edit keyframes. With this newfound discovery, I was able to animated the bowl, making it spin in different directions!
 
 
 ![**Photo:** The texture used for the wood](images/wood.png)
