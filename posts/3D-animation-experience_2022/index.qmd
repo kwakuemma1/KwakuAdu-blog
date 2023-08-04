@@ -9,13 +9,13 @@ image: "Finished _Apple_ProJect_ Two (Cycles).png"
 
 ## My First Dip into the World of Graphics Design
 
-I have always been amazed and fascinated by the world of animation, including shows like Ben 10, Hilda, Kung Fu Panda, etc., as well as graphic books like Abina, the book series Malika, etc. Beyond the storytelling, I've also been curious about how animation films are made in general. So during my winter breaks in 2022, I decided to learn the basics of creating 3D animation from [CGBOOST Academy](https://academy.cgboost.com/courses). Over the course of my studies, I learned how to work with [Blender](https://www.blender.org/about/) a powerful and versatile 3D computer graphics software used for creating, modeling, animating, and rendering a wide range of visual content.
+I have always been amazed and fascinated by the world of animation. My personal favorites are shows like Ben 10, Hilda, Kung Fu Panda, etc., and graphic books like Abina, the book series Malika, etc. Beyond the storytelling, I've also been curious about how animation films are made in general. So during my winter breaks in 2022, I decided to learn the basics of creating 3D animation from [CGBOOST Academy](https://academy.cgboost.com/courses). At CGBOOST, I learned how to work with [Blender](https://www.blender.org/about/) - a powerful and versatile 3D computer graphics software used for creating, modeling, animating, and rendering a wide range of visual content.
 
-More Importantly, this experience helped me gain an understanding of how to create a 3D object from scratch, employing lighting and designing to achieve the desired visual aesthetics. To add, I also acquired skills in using 2D Images in the process of creating 3D objects.
+More Importantly, this experience helped me gain an understanding of how to create 3D objects from scratch, employing lighting and design to achieve the desired visual aesthetics. I also acquired skills in working with 2D Images in the process of creating 3D objects.
 
 
-### A Noted Discovery
-In the course I also learned how mathematics is used to make this process possible and user-friendly by noting Blender's use of mathematics in the 3D coordinate system. The 3D coordinate system in Blender works like a virtual 3D space, where every point in a scene is defined by three numbers (X, Y, and Z). 
+## A Noted Discovery
+In the course I learned how mathematics is used to make this process possible and user-friendly. I improved my visual understanding of Geometry due to Blender's practical use of the 3D coordinate system to manipulate and design objects. The 3D coordinate system in Blender works like a virtual 3D space, where every point in a scene is defined by three numbers (X, Y, and Z). 
 
 These numbers represent the object's position relative to the world or to other objects in the scene. By using these coordinates, Blender can precisely position objects in the 3D space, allowing one to move, rotate, and scale them with accuracy. 
 
@@ -28,7 +28,7 @@ By the end of the course, I created a 3D representation of an apple bowl, in the
 
 ### Lesson One: Creating the Apple
 
-To make the 3D apple, my first step involved crafting a solid 3D version of it, commonly referred to as an Organic Model in Blender. Making the organic model was a very cool experience for me because I was introduced to using new tools such as sculpting to mold and shape digital clay-like materials directly on the 3D surface and Subdivision Surface to smooth out the meshes (vertices and edges) created after the sculpting. 
+To make the 3D apple, my first step involved crafting a solid 3D version of it, commonly referred to as an Organic Model in Blender. Making the organic model was a very cool experience for me. I was introduced to using new tools such as sculpting to mold, shape, and fine-tune digital clay-like materials directly on the 3D surface. The fine-tuning required smoothing out the meshes (vertices and edges) of the sculptured images.
 
 Once done, I then proceeded to apply textures to wrap it around the organic model to resemble a real-life apple. The process of adding the textures was also a really fascinating experience for me, as I was once again introduced to new tools, such as Texture Painting to paint directly onto the model's surface to add color and details, UV Mapping to apply textures and images accurately to the apple, and Principled Shader to control various surface properties of objects, such as color, roughness, and transparency,
 
@@ -44,7 +44,7 @@ To enhance the level of details on the outside and inside of the apple, I used t
 
 Finally, after replicating the apples I proceeded to add a leaf to a couple of them, using the image shown below with a transparent alpha channel. A special type of image that allows certain parts of the picture to be see-through or invisible.
 
-![**Photo**: An apple leaf](images/leaf.png)
+![**Photo**: An apple leaf](images/leaf.png){width=50% height=50%}
 
 
 ### Lesson Two: Simulating the Cloth
