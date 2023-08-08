@@ -40,7 +40,7 @@ To add more details to the outside and inside of the apple, I used the following
 ![**Photo:** A picture of an apple's texture from different views](images/apple.png) 
 
 
-![**Photo:** A cut apple in half.](images/apple_cut.png)
+![**Photo:** An apple cut in half.](images/apple_cut.png)
 
 Finally, after replicating the apples, I proceeded to add a leaf to a couple of them using the image shown below, which has a transparent alpha channel. A special type of image that allows certain parts of the picture to be see-through or invisible.
 
